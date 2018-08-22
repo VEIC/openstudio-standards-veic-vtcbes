@@ -422,7 +422,7 @@ class NECB2011
       construction_info[:name] = construction.name.get
       construction_info[:net_area_m2] = construction.getNetArea.round(2)
       construction_info[:thermal_conductance_m2_w_per_k] = BTAP::Resources::Envelope::Constructions::get_conductance(construction).round(3)
-      construction_info[:solar_transmittance] = BTAP::Resources::Envelope::Constructions::get_tsol(model, construction).round(3)
+      construction_info[:solar_transmittance] = BTAP::Resources::Envelope::Constructions::get_shgc(model, construction).round(3)
       construction_info[:visible_tranmittance] = BTAP::Resources::Envelope::Constructions::get_tvis(model, construction).round(3)
     end
 
@@ -920,6 +920,11 @@ class NECB2011
 
       if percent_diff.nan?
         qaqc[:ruby_warnings] << "(hp_check - pump_power_hp).to_f.abs/hp_check * 100 for #{plant_loop_info[:name]} is NaN"
+        next
+      end
+
+      if pump_power_hp < 1.0
+        qaqc[:warnings] << "necb_plantloop_sanity [SKIP] [PLANT LOOP][#{plant_loop_info[:name]}][:pumps][0][:electric_power_hp] because  pump_power_hp: [#{pump_power_hp}] < 1 hp"
         next
       end
 
