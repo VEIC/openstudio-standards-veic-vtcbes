@@ -56,6 +56,7 @@
       {
          "arguments" :
          {
+            "__SKIP__": false,
             "add_constructions" : true,
             "add_elevators" : true,
             "add_exhaust" : true,

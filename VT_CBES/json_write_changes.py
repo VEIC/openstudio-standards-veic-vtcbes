@@ -5,7 +5,7 @@ import logging
 from datetime import datetime
 
 # Set up logging
-log_file = r'C:\OSLibraries\openstudio-standards-veic\VT_CBES\json_write_changes.log'
+log_file = r'C:\OSLibraries\openstudio-standards-veic\VT_CBES\json_write_changes_constructions.log'
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(message)s',
@@ -22,12 +22,20 @@ reference_json_dir = r'C:\OSLibraries\openstudio-standards-veic\lib\openstudio-s
 
 # File mappings
 file_mappings = {
-    'VT_CBES_2020.spc_typ.csv': {
-        'reference_json': 'ashrae_90_1_2016.spc_typ.json',
-        'output_json': 'VT_CBES_2020.spc_typ.json',
-        'nested_key': 'space_types',
-        'comparison_keys': ['template', 'building_type', 'space_type']
+    'VT_CBES_2020.construction_properties.csv': {
+        'reference_json': 'ashrae_90_1_2016.construction_properties.json',
+        'output_json': 'VT_CBES_2020.construction_properties.json',
+        'nested_key': 'construction_properties',
+        'comparison_keys': ['template', 'intended_surface_type', 'space_type', 'standards_construction_type', 'building_category', 'construction']
+
+        
     }
+    # 'VT_CBES_2020.spc_typ.csv': {
+    #     'reference_json': 'ashrae_90_1_2016.spc_typ.json',
+    #     'output_json': 'VT_CBES_2020.spc_typ.json',
+    #     'nested_key': 'space_types',
+    #     'comparison_keys': ['template', 'building_type', 'space_type']
+    # }
 }
 
 def load_reference_json(reference_json_path, nested_key):
