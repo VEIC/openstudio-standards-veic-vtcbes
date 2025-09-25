@@ -26,7 +26,7 @@ file_mappings = {
         'reference_json': 'ashrae_90_1_2016.construction_properties.json',
         'output_json': 'VT_CBES_2020.construction_properties.json',
         'nested_key': 'construction_properties',
-        'comparison_keys': ['template', 'intended_surface_type', 'space_type', 'standards_construction_type', 'building_category', 'construction']
+        'comparison_keys': ['template', 'climate_zone_set', 'intended_surface_type', 'space_type', 'standards_construction_type', 'building_category', 'construction']
 
         
     }
