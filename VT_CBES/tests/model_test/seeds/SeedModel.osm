@@ -1,0 +1,222 @@
+
+OS:Version,
+  {74749101-6012-440c-9899-6838735166fe}, !- Handle
+  3.3.0;                                  !- Version Identifier
+
+OS:Schedule:Constant,
+  {37f44ced-4264-4bf7-9325-785515df1294}, !- Handle
+  Always On Discrete,                     !- Name
+  {26e0564f-d0c0-4617-99f5-4054ea1a8f17}, !- Schedule Type Limits Name
+  1;                                      !- Value
+
+OS:ScheduleTypeLimits,
+  {26e0564f-d0c0-4617-99f5-4054ea1a8f17}, !- Handle
+  Always On Discrete Limits,              !- Name
+  0,                                      !- Lower Limit Value
+  1,                                      !- Upper Limit Value
+  Discrete,                               !- Numeric Type
+  Availability;                           !- Unit Type
+
+OS:Site,
+  {a0c181cd-3c8a-40c4-aa7d-731c44fc82c8}, !- Handle
+  Burlington International Ap,            !- Name
+  44.47,                                  !- Latitude {deg}
+  -73.15,                                 !- Longitude {deg}
+  -5,                                     !- Time Zone {hr}
+  101,                                    !- Elevation {m}
+  ;                                       !- Terrain
+
+OS:YearDescription,
+  {38a4bb92-aec8-4681-b557-8aaa598a2ef1}, !- Handle
+  2020,                                   !- Calendar Year
+  Sunday;                                 !- Day of Week for Start Day
+
+OS:ClimateZones,
+  {9736bc32-9477-4b20-b8f5-7469579f7243}, !- Handle
+  ,                                       !- Climate Zone Institution Name 1
+  ,                                       !- Climate Zone Document Name 1
+  ,                                       !- Climate Zone Document Year 1
+  6A,                                     !- Climate Zone Value 1
+  CEC,                                    !- Climate Zone Institution Name 2
+  California Climate Zone Descriptions,   !- Climate Zone Document Name 2
+  1995,                                   !- Climate Zone Document Year 2
+  ;                                       !- Climate Zone Value 2
+
+OS:Building,
+  {d1eb1a82-4572-422b-b993-4eb5b472cb33}, !- Handle
+  Building 1,                             !- Name
+  ,                                       !- Building Sector Type
+  ,                                       !- North Axis {deg}
+  ,                                       !- Nominal Floor to Floor Height {m}
+  ,                                       !- Space Type Name
+  ,                                       !- Default Construction Set Name
+  ;                                       !- Default Schedule Set Name
+
+OS:Facility,
+  {fe0e2a98-8136-4704-9c5a-9a2d6200d139}; !- Handle
+
+OS:SimulationControl,
+  {fa62525e-b8ac-45e0-ba18-0ec404c2cf94}; !- Handle
+
+OS:Sizing:Parameters,
+  {7fe3d3f7-7eef-4dd5-ace3-d765b43c6d6e}, !- Handle
+  1.25,                                   !- Heating Sizing Factor
+  1.15;                                   !- Cooling Sizing Factor
+
+OS:Timestep,
+  {157bb2d1-8dad-4985-af2a-03d65057402c}, !- Handle
+  6;                                      !- Number of Timesteps per Hour
+
+OS:ShadowCalculation,
+  {e82bafa3-04e8-4af8-951b-6ddb148aa6a5}, !- Handle
+  PolygonClipping,                        !- Shading Calculation Method
+  ,                                       !- Shading Calculation Update Frequency Method
+  20,                                     !- Shading Calculation Update Frequency
+  15000,                                  !- Maximum Figures in Shadow Overlap Calculations
+  ,                                       !- Polygon Clipping Algorithm
+  512,                                    !- Pixel Counting Resolution
+  ,                                       !- Sky Diffuse Modeling Algorithm
+  No,                                     !- Output External Shading Calculation Results
+  No,                                     !- Disable Self-Shading Within Shading Zone Groups
+  No;                                     !- Disable Self-Shading From Shading Zone Groups to Other Zones
+
+OS:HeatBalanceAlgorithm,
+  {473c1ccf-efb7-43e0-8beb-3bc02a0ea40c}, !- Handle
+  ConductionTransferFunction,             !- Algorithm
+  200;                                    !- Surface Temperature Upper Limit {C}
+
+OS:RunPeriod,
+  {738a2ac1-010d-4bcc-8c5a-96bfcd56e23a}, !- Handle
+  Run Period 1,                           !- Name
+  1,                                      !- Begin Month
+  1,                                      !- Begin Day of Month
+  12,                                     !- End Month
+  31,                                     !- End Day of Month
+  ,                                       !- Use Weather File Holidays and Special Days
+  ,                                       !- Use Weather File Daylight Saving Period
+  ,                                       !- Apply Weekend Holiday Rule
+  ,                                       !- Use Weather File Rain Indicators
+  ,                                       !- Use Weather File Snow Indicators
+  ;                                       !- Number of Times Runperiod to be Repeated
+
+OS:LifeCycleCost:Parameters,
+  {a8d249e6-5775-4a21-b286-6c50d1fb11aa}, !- Handle
+  ,                                       !- Analysis Type
+  ,                                       !- Discounting Convention
+  ,                                       !- Inflation Approach
+  ,                                       !- Real Discount Rate
+  ,                                       !- Nominal Discount Rate
+  ,                                       !- Inflation
+  ,                                       !- Base Date Month
+  ,                                       !- Base Date Year
+  ,                                       !- Service Date Month
+  ,                                       !- Service Date Year
+  ;                                       !- Length of Study Period in Years
+
+OS:WeatherFile,
+  {89492611-e9fe-4e7b-a16c-984780697bcd}, !- Handle
+  Burlington International Ap,            !- City
+  VT,                                     !- State Province Region
+  USA,                                    !- Country
+  TMY3,                                   !- Data Source
+  726170,                                 !- WMO Number
+  44.47,                                  !- Latitude {deg}
+  -73.15,                                 !- Longitude {deg}
+  -5,                                     !- Time Zone {hr}
+  101,                                    !- Elevation {m}
+  file:files/USA_VT_Burlington.Intl.AP.726170_TMY3.epw, !- Url
+  628C5698;                               !- Checksum
+
+
+
+OS:Output:Variable,
+  {2f814011-e22d-43c8-8039-c3e7f3cbeef2}, !- Handle
+  Output Variable 1,                      !- Name
+  *,                                      !- Key Value
+  Zone Thermostat Heating Setpoint,       !- Variable Name
+  hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {551dc485-26b7-4a0a-84b8-3542cff12bcd}, !- Handle
+  Output Variable 2,                      !- Name
+  *,                                      !- Key Value
+  Zone Thermostat Cooling Setpoint,       !- Variable Name
+  hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {e14a3716-554a-449d-b0e7-1d59b4f3ef56}, !- Handle
+  Output Variable 3,                      !- Name
+  *,                                      !- Key Value
+  Zone Thermostat Cooling Setpoint Temperature, !- Variable Name
+  hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {c3260b17-b8cd-42be-95e0-9735efcc5c6f}, !- Handle
+  Output Variable 4,                      !- Name
+  *,                                      !- Key Value
+  Zone Thermostat Heating Setpoint Temperature, !- Variable Name
+  hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {5732d9d6-9d24-47e9-87b4-4b49a5ee1260}, !- Handle
+  Output Variable 5,                      !- Name
+  ,                                       !- Key Value
+  Zone Mechanical Ventilation Standard Density Volume Flow Rate, !- Variable Name
+  hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {34f1831b-2731-4b7f-9b9c-fb4bb7322e0d}, !- Handle
+  Output Variable 6,                      !- Name
+  ,                                       !- Key Value
+  Plant Supply Side Inlet Temperature,    !- Variable Name
+  hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {69a2af0d-8bed-43a7-9190-60bf087c3b52}, !- Handle
+  Output Variable 7,                      !- Name
+  ,                                       !- Key Value
+  Plant Supply Side Outlet Temperature,   !- Variable Name
+  hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {1d5b602c-e5e5-4698-9463-25fda7e914a9}, !- Handle
+  Output Variable 8,                      !- Name
+  ,                                       !- Key Value
+  Chiller Evaporator Inlet Temperature,   !- Variable Name
+  hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {fe456b45-7fa7-4913-9e90-efb036784364}, !- Handle
+  Output Variable 9,                      !- Name
+  ,                                       !- Key Value
+  Chiller Evaporator Outlet Temperature,  !- Variable Name
+  hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {cd90665f-2827-4da3-b78a-6ae9073dd1e2}, !- Handle
+  Output Variable 10,                     !- Name
+  ,                                       !- Key Value
+  Boiler Inlet Temperature,               !- Variable Name
+  hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {5ed444d3-8491-4f54-9487-0e3eb9c4760f}, !- Handle
+  Output Variable 11,                     !- Name
+  ,                                       !- Key Value
+  Boiler Outlet Temperature,              !- Variable Name
+  hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {df2d96f7-c548-4af0-810b-6ae68dce27ee}, !- Handle
+  Output Variable 12,                     !- Name
+  ,                                       !- Key Value
+  Air System Outdoor Air Economizer Status, !- Variable Name
+  hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {1af5c07f-3c5d-4787-942b-01601b95e86d}, !- Handle
+  Output Variable 13,                     !- Name
+  ,                                       !- Key Value
+  Air System Outdoor Air Flow Fraction,   !- Variable Name
+  hourly;                                 !- Reporting Frequency
+

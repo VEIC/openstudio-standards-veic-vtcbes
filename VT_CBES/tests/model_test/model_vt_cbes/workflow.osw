@@ -1,0 +1,92 @@
+{
+   "created_at" : "20200225T182035Z",
+   "seed_file" : "SeedModel.osm",
+   "file_paths": [
+    "../seeds",
+    "../weather"
+   ],
+   "measure_paths": [
+    "../measures"
+   ],
+   "steps" : [
+      {
+         "arguments" : {
+            "weather_file_name" : "VT_BURLINGTON-IAP_726170_TY3A.epw"
+         },
+         "description" : "Sets the EPW weather file (EPW), supplemental data specific to the location, and daylight saving time start/end dates.",
+         "measure_dir_name" : "replace_weather_file",
+         "modeler_description" : "Sets the weather file, Building America climate zone, site information (e.g., latitude, longitude, elevation, timezone), design day information (from the DDY file), the mains water temperature using the correlation method, and the daylight saving time start/end dates.",
+         "name" : "ReplaceWeatherFile"
+      },
+      {
+         "arguments" : {
+            "space_type_hash_string": "MediumOffice | Conference => 0.2, PrimarySchool | Corridor => 0.125, PrimarySchool | Classroom => 0.175, Warehouse | Office => 0.5",
+            "template": "VT_CBES_2020",
+            "total_bldg_floor_area": 10000,
+            "single_floor_area": 0,
+            "floor_height": 0,
+            "custom_height_bar": true,
+            "num_stories_above_grade": 1,
+            "num_stories_below_grade": 0,
+            "building_rotation": 0,
+            "ns_to_ew_ratio": 0,
+            "perim_mult": 0,
+            "bar_width": 0,
+            "bar_sep_dist_mult": 10,
+            "wwr": 0,
+            "party_wall_fraction": 0,
+            "party_wall_stories_north": 0,
+            "party_wall_stories_south": 0,
+            "party_wall_stories_east": 0,
+            "party_wall_stories_west": 0,
+            "bottom_story_ground_exposed_floor": true,
+            "top_story_exterior_exposed_roof": true,
+            "story_multiplier": "Basements Ground Mid Top",
+            "make_mid_story_surfaces_adiabatic": false,
+            "bar_division_method": "Multiple Space Types - Individual Stories Sliced",
+            "double_loaded_corridor": "Primary Space Type",
+            "space_type_sort_logic": "Building Type > Size",
+            "use_upstream_args": true
+         },
+         "description" : "Creates one or more rectangular building elements based on space type ratios of selected mix of building types, along with user arguments that describe the desired geometry characteristics.",
+         "measure_dir_name" : "create_bar_from_space_type_ratios",
+         "modeler_description" : "The building floor area can be described as a footprint size or as a total building area. The shape can be described by its aspect ratio or can be defined as a set width. Because this measure contains both DOE and DEER inputs, care needs to be taken to choose a template compatable with the selected building types. See readme document for additional guidance",
+         "name" : "Create Bar From Space Type Ratios"
+      },
+      {
+         "arguments" :
+         {
+            "add_constructions" : true,
+            "add_elevators" : true,
+            "add_exhaust" : true,
+            "add_exterior_lights" : false,
+            "add_hvac" : true,
+            "add_internal_mass" : true,
+            "add_refrigeration" : true,
+            "add_space_type_loads" : true,
+            "add_swh" : true,
+            "add_thermostat" : true,
+            "clg_src" : "Electricity",
+            "climate_zone" : "Lookup From Model",
+            "enable_dst" : true,
+            "exterior_lighting_zone" : "3 - All Other Areas",
+            "htg_src" : "NaturalGas",
+            "hvac_delivery_type" : "Forced Air",
+            "kitchen_makeup" : "Adjacent",
+            "onsite_parking_fraction" : 0.0,
+            "remove_objects" : true,
+            "swh_src" : "Inferred",
+            "system_type" : "Inferred",
+            "template" : "VT_CBES_2020",
+            "unmet_hours_tolerance" : 1.0,
+            "use_upstream_args" : true
+         },
+         "description" : "Takes a model with space and stub space types, and assigns constructions, schedules, internal loads, hvac, and other loads such as exterior lights and service water heating.",
+         "measure_dir_name" : "create_typical_building_from_model",
+         "modeler_description" : "It is important that the template argument chosen for this measure is in line with the building types for the stub space types of the model passed in.",
+         "name" : "Create Typical Building from Model - All"
+      }
+   ],
+   "updated_at" : "20200420T202741Z",
+   "weather_file" : "VT_BURLINGTON-IAP_726170_TY3A.epw"
+}
