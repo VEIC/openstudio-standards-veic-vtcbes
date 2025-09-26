@@ -22,8 +22,10 @@
 # Test output
 VT_CBES/tests/model_test/model_90_1_2016/*
 VT_CBES/tests/model_test/model_vt_cbes/*
+VT_CBES/tests/model_test/model_vt_cbes_2020_ref/*
 !VT_CBES/tests/model_test/model_90_1_2016/workflow.osw
 !VT_CBES/tests/model_test/model_vt_cbes/workflow.osw
+!VT_CBES/tests/model_test/model_vt_cbes_2020_ref/workflow.osw
 VT_CBES/tests/model_test/measures
 VT_CBES/tests/model_test/weather
 output/
