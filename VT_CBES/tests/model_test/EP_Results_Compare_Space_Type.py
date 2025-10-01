@@ -79,7 +79,7 @@ def convert_df_to_numeric(df):
 
 # Example usage:
 model_types = ["model_vt_cbes", "model_90_1_2016"]
-merged_df = pd.DataFrame()
+all_data = {}
 
 for model_type in model_types:
     html_file_path = fr"C:\OSLibraries\openstudio-standards-veic\VT_CBES\tests\model_test\{model_type}\reports\eplustbl.html"
@@ -89,21 +89,34 @@ for model_type in model_types:
     #LPD by space type
     lpd_table = convert_df_to_numeric(table_section_to_dataframe(soup, 'Interior Lighting', report_title='Lighting Summary'))
     lpd_table = lpd_table.iloc[:-1] #Drop the last row which is a total
-    lpd_grouped = lpd_table.groupby('Space Type').agg({'Lighting Power Density [W/m2]': 'mean'})
+    lpd_grouped = lpd_table.groupby('Space Type').agg(**{'Lighting Power Density [W/ft2]': ('Lighting Power Density [W/m2]', 'mean')})
     lpd_grouped_ip = (lpd_grouped * (1/10.7639104)).round(2)  # Convert W/m2 to W/ft2
-    
-    # Add model type column
-    lpd_grouped_ip['Model_Type'] = model_type
-    
-    # Reset index to make 'Space Type' a regular column for merging
-    lpd_grouped_ip = lpd_grouped_ip.reset_index()
-    
-    # Merge with the main dataframe
-    if merged_df.empty:
-        merged_df = lpd_grouped_ip
-    else:
-        merged_df = pd.concat([merged_df, lpd_grouped_ip], ignore_index=True)
 
-pivot_df = merged_df.pivot(index='Space Type', columns='Model_Type', values='Lighting Power Density [W/m2]')
 
-pivot_df.to_csv("lpd_by_space_type_comparison.csv", index=True)
+    #Envelope U-Values
+    envelope_table = convert_df_to_numeric(table_section_to_dataframe(soup, 'Opaque Exterior', report_title='Envelope Summary'))
+    envelope_grouped = envelope_table.groupby('Construction').agg(**{'U-Factor with Film [Btu/h·ft2·F]': ('U-Factor with Film [W/m2-K]', 'mean')})
+    envelope_grouped_ip = (envelope_grouped * (1/5.678)).round(2)  # Convert W/m2-K to Btu/h·ft2·F
+
+    #Window U-Values
+    window_table = convert_df_to_numeric(table_section_to_dataframe(soup, 'Exterior Fenestration', report_title='Envelope Summary'))
+    window_table = window_table.iloc[:-3] #Drop the last 3 rows which are totals
+    window_grouped = window_table.groupby('Construction').agg(**{'Glass U-Factor [Btu/h·ft2·F]': ('Glass U-Factor [W/m2-K]', 'mean')})
+    window_grouped_ip = (window_grouped * (1/5.678)).round(2)  # Convert W/m2-K to Btu/h·ft2·F
+
+    # Store all data for this model
+    all_data[model_type] = {
+        'lpd': lpd_grouped_ip,
+        'envelope': envelope_grouped_ip,
+        'window': window_grouped_ip
+    }
+
+# Create comparison DataFrames
+lpd_comparison = pd.concat([all_data[model]['lpd'] for model in model_types], axis=1, keys=model_types)
+envelope_comparison = pd.concat([all_data[model]['envelope'] for model in model_types], axis=1, keys=model_types)
+window_comparison = pd.concat([all_data[model]['window'] for model in model_types], axis=1, keys=model_types)
+
+# Save to CSV
+lpd_comparison.to_csv("lpd_comparison.csv")
+envelope_comparison.to_csv("envelope_comparison.csv")
+window_comparison.to_csv("window_comparison.csv")
