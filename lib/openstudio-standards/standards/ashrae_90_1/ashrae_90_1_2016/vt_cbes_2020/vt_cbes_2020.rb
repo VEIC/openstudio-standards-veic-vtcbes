@@ -1,11 +1,11 @@
 # vt_ashrae_90_1_2016.rb
 class VTCBES2020 < ASHRAE9012016
-  register_standard 'VT-CBES-2020'
+  register_standard 'VT_CBES_2020'
   attr_reader :template
 
   def initialize
     super()
-    @template = 'VT-CBES-2020'
+    @template = 'VT_CBES_2020'
     load_standards_database
   end
 
