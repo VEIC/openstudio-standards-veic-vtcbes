@@ -106,6 +106,9 @@ module OpenstudioStandards
   require_relative "#{stds}/ashrae_90_1/nrel_zne_ready_2017/nrel_zne_ready_2017"
   require_relative "#{stds}/ashrae_90_1/ze_aedg_multifamily/ze_aedg_multifamily"
 
+  # VEIC custom standards
+  require_relative "#{stds}/ashrae_90_1/ashrae_90_1_2016/vt_cbes_2020/vt_cbes_2020"
+
   require_relative "#{stds}/deer/deer"
   require_relative "#{stds}/deer/deer_pre_1975/deer_pre_1975"
   require_relative "#{stds}/deer/deer_pre_1975/comstock_deer_pre_1975/comstock_deer_pre_1975"
