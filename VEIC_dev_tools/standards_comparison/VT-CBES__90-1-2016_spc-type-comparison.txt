@@ -1,0 +1,979 @@
+VT-CBES rows to check: 163
+
+============================================================
+building_type: College  |  space_type: College - Art Classroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.87                  base: 0.92
+
+============================================================
+building_type: College  |  space_type: College - Classroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.87                  base: 0.92
+
+============================================================
+building_type: College  |  space_type: College - Conference
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.07
+
+============================================================
+building_type: College  |  space_type: College - Laboratory
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.05                  base: 1.45
+
+============================================================
+building_type: College  |  space_type: College - Lecture Hall
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.87                  base: 0.63
+
+============================================================
+building_type: College  |  space_type: College - Lounge
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.54                  base: 0.62
+
+============================================================
+building_type: College  |  space_type: College - Media Center
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.21                  base: 0.78
+
+============================================================
+building_type: College  |  space_type: College - Office
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.93
+
+============================================================
+building_type: College  |  space_type: College - Restroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.73                  base: 0.85
+
+============================================================
+building_type: College  |  space_type: College - Stairs
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.58
+
+============================================================
+building_type: College  |  space_type: College - Storage
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.43                  base: 0.46
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Break Room
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.54                  base: 0.62
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Cell
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.76                  base: 0.81
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Conference
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.07
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Courtroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.24                  base: 1.39
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Courtroom Waiting
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.76                  base: 1.0
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Elevator Lobby
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.53                  base: 0.69
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Entrance Lobby
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.76                  base: 1.0
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Judges Chamber
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.9
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Library
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.75                  base: 0.82
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Office
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.93
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Parking
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.13                  base: 0.14
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Restrooms
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.73                  base: 0.85
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Stairs
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.58
+
+============================================================
+building_type: Courthouse  |  space_type: Courthouse - Storage
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.43                  base: 0.46
+
+============================================================
+building_type: FullServiceRestaurant  |  space_type: Dining
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.64                  base: 0.71
+
+============================================================
+building_type: FullServiceRestaurant  |  space_type: Kitchen
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.9                   base: 1.06
+
+============================================================
+building_type: HighriseApartment  |  space_type: Office
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.93
+
+============================================================
+building_type: Hospital  |  space_type: Corridor
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.79                  base: 0.92
+
+============================================================
+building_type: Hospital  |  space_type: Dining
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.63
+
+============================================================
+building_type: Hospital  |  space_type: ER_Exam
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.34                  base: 1.68
+
+============================================================
+building_type: Hospital  |  space_type: ER_NurseStn
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.61                  base: 0.81
+
+============================================================
+building_type: Hospital  |  space_type: ICU_NurseStn
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.61                  base: 0.81
+
+============================================================
+building_type: Hospital  |  space_type: ICU_PatRm
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.5                   base: 0.62
+
+============================================================
+building_type: Hospital  |  space_type: Kitchen
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.9                   base: 1.06
+
+============================================================
+building_type: Hospital  |  space_type: Lab
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.3                   base: 1.45
+
+============================================================
+building_type: Hospital  |  space_type: Lobby
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.76                  base: 1.0
+
+============================================================
+building_type: Hospital  |  space_type: NurseStn
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.61                  base: 0.81
+
+============================================================
+building_type: Hospital  |  space_type: OR
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.85                  base: 2.17
+
+============================================================
+building_type: Hospital  |  space_type: PatRoom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.5                   base: 0.62
+
+============================================================
+building_type: Hospital  |  space_type: PhysTherapy
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.7                   base: 0.84
+
+============================================================
+building_type: Hospital  |  space_type: Radiology
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.02                  base: 1.06
+
+============================================================
+building_type: Laboratory  |  space_type: Lab with fume hood
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.3                   base: 1.45
+
+============================================================
+building_type: Laboratory  |  space_type: Open lab
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.3                   base: 1.45
+
+============================================================
+building_type: LargeHotel  |  space_type: Banquet
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.63
+
+============================================================
+building_type: LargeHotel  |  space_type: Cafe
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.63
+
+============================================================
+building_type: LargeHotel  |  space_type: Kitchen
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.9                   base: 1.06
+
+============================================================
+building_type: LargeHotel  |  space_type: Laundry
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.41                  base: 0.43
+
+============================================================
+building_type: LargeHotel  |  space_type: Lobby
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.85                  base: 1.06
+
+============================================================
+building_type: LargeHotel  |  space_type: Retail
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.8                   base: 1.06
+
+============================================================
+building_type: LargeHotel  |  space_type: Retail2
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.8                   base: 1.06
+
+============================================================
+building_type: LargeHotel  |  space_type: Storage
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.43                  base: 0.46
+
+============================================================
+building_type: MidriseApartment  |  space_type: Office
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.93
+
+============================================================
+building_type: Office  |  space_type: BreakRoom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.54                  base: 0.62
+
+============================================================
+building_type: Office  |  space_type: Classroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.87                  base: 0.92
+
+============================================================
+building_type: Office  |  space_type: ClosedOffice
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.93
+
+============================================================
+building_type: Office  |  space_type: Conference
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.07
+
+============================================================
+building_type: Office  |  space_type: Dining
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.63
+
+============================================================
+building_type: Office  |  space_type: Elevator Lobby
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.53                  base: 0.69
+
+============================================================
+building_type: Office  |  space_type: Lobby
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.76                  base: 1.0
+
+============================================================
+building_type: Office  |  space_type: MediumOffice - Breakroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.54                  base: 0.62
+
+============================================================
+building_type: Office  |  space_type: MediumOffice - Classroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.87                  base: 0.92
+
+============================================================
+building_type: Office  |  space_type: MediumOffice - ClosedOffice
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.93
+
+============================================================
+building_type: Office  |  space_type: MediumOffice - Conference
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.07
+
+============================================================
+building_type: Office  |  space_type: MediumOffice - Dining
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.63
+
+============================================================
+building_type: Office  |  space_type: MediumOffice - Lobby
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.76                  base: 1.0
+
+============================================================
+building_type: Office  |  space_type: MediumOffice - OpenOffice
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.71                  base: 0.81
+
+============================================================
+building_type: Office  |  space_type: MediumOffice - Restroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.73                  base: 0.85
+
+============================================================
+building_type: Office  |  space_type: MediumOffice - Stair
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.58
+
+============================================================
+building_type: Office  |  space_type: MediumOffice - Storage
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.43                  base: 0.46
+
+============================================================
+building_type: Office  |  space_type: OpenOffice
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.71                  base: 0.81
+
+============================================================
+building_type: Office  |  space_type: PrintRoom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.93
+
+============================================================
+building_type: Office  |  space_type: Restroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.73                  base: 0.85
+
+============================================================
+building_type: Office  |  space_type: SmallOffice - Breakroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.54                  base: 0.62
+
+============================================================
+building_type: Office  |  space_type: SmallOffice - Classroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.87                  base: 0.92
+
+============================================================
+building_type: Office  |  space_type: SmallOffice - ClosedOffice
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.93
+
+============================================================
+building_type: Office  |  space_type: SmallOffice - Conference
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.07
+
+============================================================
+building_type: Office  |  space_type: SmallOffice - Dining
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.63
+
+============================================================
+building_type: Office  |  space_type: SmallOffice - Lobby
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.76                  base: 1.0
+
+============================================================
+building_type: Office  |  space_type: SmallOffice - OpenOffice
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.71                  base: 0.81
+
+============================================================
+building_type: Office  |  space_type: SmallOffice - Restroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.73                  base: 0.85
+
+============================================================
+building_type: Office  |  space_type: SmallOffice - Stair
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.58
+
+============================================================
+building_type: Office  |  space_type: SmallOffice - Storage
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.43                  base: 0.46
+
+============================================================
+building_type: Office  |  space_type: Stair
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.58
+
+============================================================
+building_type: Office  |  space_type: Storage
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.43                  base: 0.46
+
+============================================================
+building_type: Office  |  space_type: WholeBuilding - Lg Office
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.64                  base: 0.79
+
+============================================================
+building_type: Office  |  space_type: WholeBuilding - Lg Office-basement
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.64                  base: 0.79
+
+============================================================
+building_type: Office  |  space_type: WholeBuilding - Lg Office-others
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.64                  base: 0.79
+
+============================================================
+building_type: Office  |  space_type: WholeBuilding - Md Office
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.64                  base: 0.79
+
+============================================================
+building_type: Office  |  space_type: WholeBuilding - Sm Office
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.64                  base: 0.79
+
+============================================================
+building_type: Outpatient  |  space_type: Cafe
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.63
+
+============================================================
+building_type: Outpatient  |  space_type: Conference
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.07
+
+============================================================
+building_type: Outpatient  |  space_type: DressingRoom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.5                   base: 0.93
+
+============================================================
+building_type: Outpatient  |  space_type: Exam
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.34                  base: 1.68
+
+============================================================
+building_type: Outpatient  |  space_type: Hall
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.79                  base: 0.92
+
+============================================================
+building_type: Outpatient  |  space_type: Hall_infil
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.79                  base: 0.92
+
+============================================================
+building_type: Outpatient  |  space_type: Janitor
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.43                  base: 0.46
+
+============================================================
+building_type: Outpatient  |  space_type: Lobby
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.76                  base: 1.0
+
+============================================================
+building_type: Outpatient  |  space_type: LockerRoom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.48                  base: 0.78
+
+============================================================
+building_type: Outpatient  |  space_type: Lounge
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.68                  base: 0.78
+
+============================================================
+building_type: Outpatient  |  space_type: MRI
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.02                  base: 1.06
+
+============================================================
+building_type: Outpatient  |  space_type: MRI_Control
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.02                  base: 1.06
+
+============================================================
+building_type: Outpatient  |  space_type: NurseStation
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.61                  base: 0.81
+
+============================================================
+building_type: Outpatient  |  space_type: OR
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.85                  base: 2.17
+
+============================================================
+building_type: Outpatient  |  space_type: Office
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.93
+
+============================================================
+building_type: Outpatient  |  space_type: PhysicalTherapy
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.7                   base: 0.84
+
+============================================================
+building_type: Outpatient  |  space_type: ProcedureRoom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.34                  base: 1.68
+
+============================================================
+building_type: Outpatient  |  space_type: Reception
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.76                  base: 1.0
+
+============================================================
+building_type: Outpatient  |  space_type: Stair
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.92
+
+============================================================
+building_type: Outpatient  |  space_type: Toilet
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.73                  base: 0.85
+
+============================================================
+building_type: Outpatient  |  space_type: Xray
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.02                  base: 1.06
+
+============================================================
+building_type: PrimarySchool  |  space_type: Cafeteria
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.63
+
+============================================================
+building_type: PrimarySchool  |  space_type: Classroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.87                  base: 0.92
+
+============================================================
+building_type: PrimarySchool  |  space_type: ComputerRoom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.21                  base: 0.92
+
+============================================================
+building_type: PrimarySchool  |  space_type: Gym
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.52                  base: 0.5
+
+============================================================
+building_type: PrimarySchool  |  space_type: Kitchen
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.9                   base: 1.06
+
+============================================================
+building_type: PrimarySchool  |  space_type: Library
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.75                  base: 0.78
+
+============================================================
+building_type: PrimarySchool  |  space_type: Lobby
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.76                  base: 1.0
+
+============================================================
+building_type: PrimarySchool  |  space_type: Office
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.93
+
+============================================================
+building_type: PrimarySchool  |  space_type: Restroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.73                  base: 0.85
+
+============================================================
+building_type: QuickServiceRestaurant  |  space_type: Dining
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.71
+
+============================================================
+building_type: QuickServiceRestaurant  |  space_type: Kitchen
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.9                   base: 1.06
+
+============================================================
+building_type: Retail  |  space_type: Core_Retail
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.22
+
+============================================================
+building_type: Retail  |  space_type: Entry
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.76                  base: 1.0
+
+============================================================
+building_type: Retail  |  space_type: Front_Retail
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.22
+
+============================================================
+building_type: Retail  |  space_type: Point_of_Sale
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.22
+
+============================================================
+building_type: Retail  |  space_type: Retail
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.22
+
+============================================================
+building_type: SecondarySchool  |  space_type: Auditorium
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.5                   base: 0.63
+
+============================================================
+building_type: SecondarySchool  |  space_type: Cafeteria
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.63
+
+============================================================
+building_type: SecondarySchool  |  space_type: Classroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.87                  base: 0.92
+
+============================================================
+building_type: SecondarySchool  |  space_type: ComputerRoom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.21                  base: 0.92
+
+============================================================
+building_type: SecondarySchool  |  space_type: Gym
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.52                  base: 0.5
+
+============================================================
+building_type: SecondarySchool  |  space_type: Kitchen
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.9                   base: 1.06
+
+============================================================
+building_type: SecondarySchool  |  space_type: Library
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.75                  base: 0.78
+
+============================================================
+building_type: SecondarySchool  |  space_type: Lobby
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.76                  base: 1.0
+
+============================================================
+building_type: SecondarySchool  |  space_type: Office
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.93
+
+============================================================
+building_type: SecondarySchool  |  space_type: Restroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.73                  base: 0.85
+
+============================================================
+building_type: SmallHotel  |  space_type: Elec/MechRoom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.43                  base: 0.0
+
+============================================================
+building_type: SmallHotel  |  space_type: Exercise
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.48                  base: 0.5
+
+============================================================
+building_type: SmallHotel  |  space_type: GuestLounge
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.54                  base: 1.06
+
+============================================================
+building_type: SmallHotel  |  space_type: Laundry
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.41                  base: 0.43
+
+============================================================
+building_type: SmallHotel  |  space_type: Meeting
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.07
+
+============================================================
+building_type: SmallHotel  |  space_type: Office
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.93
+
+============================================================
+building_type: SmallHotel  |  space_type: PublicRestroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.73                  base: 0.85
+
+============================================================
+building_type: SmallHotel  |  space_type: StaffLounge
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.54                  base: 0.62
+
+============================================================
+building_type: SmallHotel  |  space_type: Stair
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.58
+
+============================================================
+building_type: SmallHotel  |  space_type: Stair4
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.58
+
+============================================================
+building_type: SmallHotel  |  space_type: Storage
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.43                  base: 0.46
+
+============================================================
+building_type: SmallHotel  |  space_type: Storage4Front
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.43                  base: 0.46
+
+============================================================
+building_type: SmallHotel  |  space_type: Storage4Rear
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.43                  base: 0.46
+
+============================================================
+building_type: StripMall  |  space_type: Strip mall - type 1
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.06
+
+============================================================
+building_type: StripMall  |  space_type: Strip mall - type 2
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.06
+
+============================================================
+building_type: StripMall  |  space_type: Strip mall - type 3
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.06
+
+============================================================
+building_type: SuperMarket  |  space_type: Bakery
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.9                   base: 1.06
+
+============================================================
+building_type: SuperMarket  |  space_type: Deli
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.9                   base: 1.06
+
+============================================================
+building_type: SuperMarket  |  space_type: Dining
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.51                  base: 0.63
+
+============================================================
+building_type: SuperMarket  |  space_type: DryStorage
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.43                  base: 0.46
+
+============================================================
+building_type: SuperMarket  |  space_type: Meeting
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.92                  base: 1.07
+
+============================================================
+building_type: SuperMarket  |  space_type: Office
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.93
+
+============================================================
+building_type: SuperMarket  |  space_type: Restroom
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.73                  base: 0.85
+
+============================================================
+building_type: SuperMarket  |  space_type: Sales
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 1.11                  base: 1.22
+
+============================================================
+building_type: Warehouse  |  space_type: Fine
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.65                  base: 0.69
+
+============================================================
+building_type: Warehouse  |  space_type: Office
+  CHANGED fields (2):
+    lighting_standard                             VT-CBES: "VT_CBES_2020"        base: ASHRAE 90.1-2016
+    lighting_per_area                             VT-CBES: 0.81                  base: 0.79

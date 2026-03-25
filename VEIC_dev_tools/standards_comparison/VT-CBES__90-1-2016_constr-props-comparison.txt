@@ -1,0 +1,139 @@
+VT-CBES rows to check: 27
+
+============================================================
+building_category: Nonresidential  |  construction: Typical Insulated Wood Framed Exterior Floor
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.033                 base: 0.027
+
+============================================================
+building_category: Residential  |  construction: Typical Insulated Wood Framed Exterior Floor
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.033                 base: 0.027
+
+============================================================
+building_category: Nonresidential  |  construction: Typical IEAD Roof
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.025                 base: 0.032
+
+============================================================
+building_category: Residential  |  construction: Typical IEAD Roof
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.025                 base: 0.032
+
+============================================================
+building_category: Semiheated  |  construction: Typical IEAD Roof
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.039                 base: 0.063
+
+============================================================
+building_category: Nonresidential  |  construction: Typical Insulated Metal Building Roof
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.026                 base: 0.031
+
+============================================================
+building_category: Residential  |  construction: Typical Insulated Metal Building Roof
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.026                 base: 0.029
+
+============================================================
+building_category: Semiheated  |  construction: Typical Insulated Metal Building Roof
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.037                 base: 0.06
+
+============================================================
+building_category: Nonresidential  |  construction: Typical Insulated Exterior Mass Wall
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.048                 base: 0.08
+
+============================================================
+building_category: Residential  |  construction: Typical Insulated Exterior Mass Wall
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.048                 base: 0.071
+
+============================================================
+building_category: Semiheated  |  construction: Typical Insulated Exterior Mass Wall
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.104                 base: 0.151
+
+============================================================
+building_category: Nonresidential  |  construction: Typical Insulated Metal Building Wall
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.044                 base: 0.05
+
+============================================================
+building_category: Residential  |  construction: Typical Insulated Metal Building Wall
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.044                 base: 0.05
+
+============================================================
+building_category: Semiheated  |  construction: Typical Insulated Metal Building Wall
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.06                  base: 0.094
+
+============================================================
+building_category: Nonresidential  |  construction: Typical Insulated Steel Framed Exterior Wall
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.044                 base: 0.049
+
+============================================================
+building_category: Residential  |  construction: Typical Insulated Steel Framed Exterior Wall
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.044                 base: 0.049
+
+============================================================
+building_category: Semiheated  |  construction: Typical Insulated Steel Framed Exterior Wall
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.064                 base: 0.084
+
+============================================================
+building_category: Nonresidential  |  construction: Typical Insulated Wood Framed Exterior Wall
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.042                 base: 0.051
+
+============================================================
+building_category: Residential  |  construction: Typical Insulated Wood Framed Exterior Wall
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.042                 base: 0.051
+
+============================================================
+building_category: Semiheated  |  construction: Typical Insulated Wood Framed Exterior Wall
+  CHANGED fields (1):
+    assembly_maximum_u_value                      VT-CBES: 0.064                 base: 0.089
+
+============================================================
+building_category: Nonresidential  |  construction: Typical Insulated Carpeted 8in Slab Floor
+  CHANGED fields (2):
+    standards_construction_type                   VT-CBES: "Heated"              base: Unheated
+    assembly_maximum_f_factor                     VT-CBES: 0.373                 base: 0.51
+
+============================================================
+building_category: Residential  |  construction: Typical Insulated Carpeted 6in Slab Floor
+  CHANGED fields (2):
+    standards_construction_type                   VT-CBES: "Heated"              base: Unheated
+    assembly_maximum_f_factor                     VT-CBES: 0.373                 base: 0.434
+
+============================================================
+building_category: Semiheated  |  construction: Typical Insulated Carpeted 6in Slab Floor
+  CHANGED fields (2):
+    standards_construction_type                   VT-CBES: "Heated"              base: Unheated
+    assembly_maximum_f_factor                     VT-CBES: 0.55                  base: 0.73
+
+============================================================
+building_category: Nonresidential  |  construction: Typical Insulated Carpeted 8in Slab Floor
+  CHANGED fields (1):
+    assembly_maximum_f_factor                     VT-CBES: 0.36                  base: 0.51
+
+============================================================
+building_category: Residential  |  construction: Typical Insulated Carpeted 6in Slab Floor
+  CHANGED fields (1):
+    assembly_maximum_f_factor                     VT-CBES: 0.36                  base: 0.434
+
+============================================================
+building_category: Semiheated  |  construction: Typical Insulated Carpeted 6in Slab Floor
+  CHANGED fields (1):
+    assembly_maximum_f_factor                     VT-CBES: 0.54                  base: 0.73
+
+============================================================
+building_category: Nonresidential  |  construction: Typical Insulated Basement Mass Wall
+  CHANGED fields (1):
+    assembly_maximum_c_factor                     VT-CBES: 0.063                 base: 0.092
