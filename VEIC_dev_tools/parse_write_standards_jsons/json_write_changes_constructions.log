@@ -1,0 +1,32 @@
+2025-09-25 15:14:06,292 - Processing VT_CBES_2020.construction_properties_v2.csv...
+2025-09-25 15:14:06,299 -   Loaded 1035 reference entries
+2025-09-25 15:14:06,311 -   Found 27 VT_CBES overrides
+2025-09-25 15:14:06,312 -   Overrode:  - 
+2025-09-25 15:14:06,313 -   Overrode:  - 
+2025-09-25 15:14:06,314 -   Overrode:  - 
+2025-09-25 15:14:06,314 -   Overrode:  - 
+2025-09-25 15:14:06,315 -   Overrode:  - 
+2025-09-25 15:14:06,316 -   Overrode:  - 
+2025-09-25 15:14:06,316 -   Overrode:  - 
+2025-09-25 15:14:06,317 -   Overrode:  - 
+2025-09-25 15:14:06,318 -   Overrode:  - 
+2025-09-25 15:14:06,318 -   Overrode:  - 
+2025-09-25 15:14:06,319 -   Overrode:  - 
+2025-09-25 15:14:06,319 -   Overrode:  - 
+2025-09-25 15:14:06,320 -   Overrode:  - 
+2025-09-25 15:14:06,321 -   Overrode:  - 
+2025-09-25 15:14:06,321 -   Overrode:  - 
+2025-09-25 15:14:06,322 -   Overrode:  - 
+2025-09-25 15:14:06,322 -   Overrode:  - 
+2025-09-25 15:14:06,323 -   Overrode:  - 
+2025-09-25 15:14:06,329 -   Overrode:  - 
+2025-09-25 15:14:06,332 -   Overrode:  - 
+2025-09-25 15:14:06,333 -   Overrode:  - 
+2025-09-25 15:14:06,334 -   Overrode:  - 
+2025-09-25 15:14:06,334 -   Overrode:  - 
+2025-09-25 15:14:06,335 -   Overrode:  - 
+2025-09-25 15:14:06,336 -   Overrode:  - 
+2025-09-25 15:14:06,337 -   Overrode:  - 
+2025-09-25 15:14:06,338 -   Overrode:  - 
+2025-09-25 15:14:06,369 -   Created complete C:\OSLibraries\openstudio-standards-veic\lib\openstudio-standards\standards\ashrae_90_1\VT_CBES_2020\data\VT_CBES_2020.construction_properties_v2.json with 1035 base entries + 27 VT_CBES overrides
+2025-09-25 15:14:06,369 - Done creating complete JSON file!

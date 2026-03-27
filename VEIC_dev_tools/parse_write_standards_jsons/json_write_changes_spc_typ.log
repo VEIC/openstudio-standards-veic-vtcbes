@@ -1,0 +1,169 @@
+2025-09-24 15:56:25,286 - Starting JSON write changes process...
+2025-09-24 15:56:25,286 - Processing VT_CBES_2020.spc_typ.csv...
+2025-09-24 15:56:25,304 -   Loaded 264 reference entries
+2025-09-24 15:56:25,316 -   Found 163 VT_CBES overrides
+2025-09-24 15:56:25,316 -   Overrode: College - College - Art Classroom
+2025-09-24 15:56:25,317 -   Overrode: College - College - Classroom
+2025-09-24 15:56:25,317 -   Overrode: College - College - Conference
+2025-09-24 15:56:25,317 -   Overrode: College - College - Laboratory
+2025-09-24 15:56:25,317 -   Overrode: College - College - Lecture Hall
+2025-09-24 15:56:25,318 -   Overrode: College - College - Lounge
+2025-09-24 15:56:25,318 -   Overrode: College - College - Media Center
+2025-09-24 15:56:25,318 -   Overrode: College - College - Office
+2025-09-24 15:56:25,318 -   Overrode: College - College - Restroom
+2025-09-24 15:56:25,318 -   Overrode: College - College - Stairs
+2025-09-24 15:56:25,318 -   Overrode: College - College - Storage
+2025-09-24 15:56:25,318 -   Overrode: Courthouse - Courthouse - Break Room
+2025-09-24 15:56:25,319 -   Overrode: Courthouse - Courthouse - Cell
+2025-09-24 15:56:25,319 -   Overrode: Courthouse - Courthouse - Conference
+2025-09-24 15:56:25,319 -   Overrode: Courthouse - Courthouse - Courtroom
+2025-09-24 15:56:25,319 -   Overrode: Courthouse - Courthouse - Courtroom Waiting
+2025-09-24 15:56:25,319 -   Overrode: Courthouse - Courthouse - Elevator Lobby
+2025-09-24 15:56:25,320 -   Overrode: Courthouse - Courthouse - Entrance Lobby
+2025-09-24 15:56:25,320 -   Overrode: Courthouse - Courthouse - Judges Chamber
+2025-09-24 15:56:25,320 -   Overrode: Courthouse - Courthouse - Library
+2025-09-24 15:56:25,320 -   Overrode: Courthouse - Courthouse - Office
+2025-09-24 15:56:25,320 -   Overrode: Courthouse - Courthouse - Parking
+2025-09-24 15:56:25,321 -   Overrode: Courthouse - Courthouse - Restrooms
+2025-09-24 15:56:25,321 -   Overrode: Courthouse - Courthouse - Stairs
+2025-09-24 15:56:25,321 -   Overrode: Courthouse - Courthouse - Storage
+2025-09-24 15:56:25,321 -   Overrode: FullServiceRestaurant - Dining
+2025-09-24 15:56:25,322 -   Overrode: FullServiceRestaurant - Kitchen
+2025-09-24 15:56:25,322 -   Overrode: HighriseApartment - Office
+2025-09-24 15:56:25,322 -   Overrode: Hospital - Corridor
+2025-09-24 15:56:25,323 -   Overrode: Hospital - Dining
+2025-09-24 15:56:25,324 -   Overrode: Hospital - ER_Exam
+2025-09-24 15:56:25,324 -   Overrode: Hospital - ER_NurseStn
+2025-09-24 15:56:25,325 -   Overrode: Hospital - ICU_NurseStn
+2025-09-24 15:56:25,325 -   Overrode: Hospital - ICU_PatRm
+2025-09-24 15:56:25,325 -   Overrode: Hospital - Kitchen
+2025-09-24 15:56:25,325 -   Overrode: Hospital - Lab
+2025-09-24 15:56:25,326 -   Overrode: Hospital - Lobby
+2025-09-24 15:56:25,326 -   Overrode: Hospital - NurseStn
+2025-09-24 15:56:25,326 -   Overrode: Hospital - OR
+2025-09-24 15:56:25,326 -   Overrode: Hospital - PatRoom
+2025-09-24 15:56:25,327 -   Overrode: Hospital - PhysTherapy
+2025-09-24 15:56:25,327 -   Overrode: Hospital - Radiology
+2025-09-24 15:56:25,327 -   Overrode: Laboratory - Lab with fume hood
+2025-09-24 15:56:25,327 -   Overrode: Laboratory - Open lab
+2025-09-24 15:56:25,328 -   Overrode: LargeHotel - Banquet
+2025-09-24 15:56:25,328 -   Overrode: LargeHotel - Cafe
+2025-09-24 15:56:25,328 -   Overrode: LargeHotel - Kitchen
+2025-09-24 15:56:25,328 -   Overrode: LargeHotel - Laundry
+2025-09-24 15:56:25,329 -   Overrode: LargeHotel - Lobby
+2025-09-24 15:56:25,329 -   Overrode: LargeHotel - Retail
+2025-09-24 15:56:25,329 -   Overrode: LargeHotel - Retail2
+2025-09-24 15:56:25,329 -   Overrode: LargeHotel - Storage
+2025-09-24 15:56:25,330 -   Overrode: MidriseApartment - Office
+2025-09-24 15:56:25,330 -   Overrode: Office - BreakRoom
+2025-09-24 15:56:25,330 -   Overrode: Office - Classroom
+2025-09-24 15:56:25,331 -   Overrode: Office - ClosedOffice
+2025-09-24 15:56:25,331 -   Overrode: Office - Conference
+2025-09-24 15:56:25,331 -   Overrode: Office - Dining
+2025-09-24 15:56:25,331 -   Overrode: Office - Elevator Lobby
+2025-09-24 15:56:25,332 -   Overrode: Office - Lobby
+2025-09-24 15:56:25,332 -   Overrode: Office - MediumOffice - Breakroom
+2025-09-24 15:56:25,332 -   Overrode: Office - MediumOffice - Classroom
+2025-09-24 15:56:25,333 -   Overrode: Office - MediumOffice - ClosedOffice
+2025-09-24 15:56:25,334 -   Overrode: Office - MediumOffice - Conference
+2025-09-24 15:56:25,335 -   Overrode: Office - MediumOffice - Dining
+2025-09-24 15:56:25,335 -   Overrode: Office - MediumOffice - Lobby
+2025-09-24 15:56:25,336 -   Overrode: Office - MediumOffice - OpenOffice
+2025-09-24 15:56:25,336 -   Overrode: Office - MediumOffice - Restroom
+2025-09-24 15:56:25,336 -   Overrode: Office - MediumOffice - Stair
+2025-09-24 15:56:25,337 -   Overrode: Office - MediumOffice - Storage
+2025-09-24 15:56:25,337 -   Overrode: Office - OpenOffice
+2025-09-24 15:56:25,337 -   Overrode: Office - PrintRoom
+2025-09-24 15:56:25,337 -   Overrode: Office - Restroom
+2025-09-24 15:56:25,338 -   Overrode: Office - SmallOffice - Breakroom
+2025-09-24 15:56:25,338 -   Overrode: Office - SmallOffice - Classroom
+2025-09-24 15:56:25,338 -   Overrode: Office - SmallOffice - ClosedOffice
+2025-09-24 15:56:25,338 -   Overrode: Office - SmallOffice - Conference
+2025-09-24 15:56:25,338 -   Overrode: Office - SmallOffice - Dining
+2025-09-24 15:56:25,339 -   Overrode: Office - SmallOffice - Lobby
+2025-09-24 15:56:25,339 -   Overrode: Office - SmallOffice - OpenOffice
+2025-09-24 15:56:25,339 -   Overrode: Office - SmallOffice - Restroom
+2025-09-24 15:56:25,339 -   Overrode: Office - SmallOffice - Stair
+2025-09-24 15:56:25,339 -   Overrode: Office - SmallOffice - Storage
+2025-09-24 15:56:25,340 -   Overrode: Office - Stair
+2025-09-24 15:56:25,340 -   Overrode: Office - Storage
+2025-09-24 15:56:25,340 -   Overrode: Office - WholeBuilding - Lg Office
+2025-09-24 15:56:25,340 -   Overrode: Office - WholeBuilding - Lg Office-basement
+2025-09-24 15:56:25,341 -   Overrode: Office - WholeBuilding - Lg Office-others
+2025-09-24 15:56:25,341 -   Overrode: Office - WholeBuilding - Md Office
+2025-09-24 15:56:25,341 -   Overrode: Office - WholeBuilding - Sm Office
+2025-09-24 15:56:25,341 -   Overrode: Outpatient - Cafe
+2025-09-24 15:56:25,342 -   Overrode: Outpatient - Conference
+2025-09-24 15:56:25,342 -   Overrode: Outpatient - DressingRoom
+2025-09-24 15:56:25,342 -   Overrode: Outpatient - Exam
+2025-09-24 15:56:25,342 -   Overrode: Outpatient - Hall
+2025-09-24 15:56:25,343 -   Overrode: Outpatient - Hall_infil
+2025-09-24 15:56:25,343 -   Overrode: Outpatient - Janitor
+2025-09-24 15:56:25,343 -   Overrode: Outpatient - Lobby
+2025-09-24 15:56:25,343 -   Overrode: Outpatient - LockerRoom
+2025-09-24 15:56:25,344 -   Overrode: Outpatient - Lounge
+2025-09-24 15:56:25,344 -   Overrode: Outpatient - MRI
+2025-09-24 15:56:25,345 -   Overrode: Outpatient - MRI_Control
+2025-09-24 15:56:25,345 -   Overrode: Outpatient - NurseStation
+2025-09-24 15:56:25,345 -   Overrode: Outpatient - OR
+2025-09-24 15:56:25,345 -   Overrode: Outpatient - Office
+2025-09-24 15:56:25,346 -   Overrode: Outpatient - PhysicalTherapy
+2025-09-24 15:56:25,346 -   Overrode: Outpatient - ProcedureRoom
+2025-09-24 15:56:25,346 -   Overrode: Outpatient - Reception
+2025-09-24 15:56:25,347 -   Overrode: Outpatient - Stair
+2025-09-24 15:56:25,347 -   Overrode: Outpatient - Toilet
+2025-09-24 15:56:25,347 -   Overrode: Outpatient - Xray
+2025-09-24 15:56:25,347 -   Overrode: PrimarySchool - Cafeteria
+2025-09-24 15:56:25,347 -   Overrode: PrimarySchool - Classroom
+2025-09-24 15:56:25,348 -   Overrode: PrimarySchool - ComputerRoom
+2025-09-24 15:56:25,348 -   Overrode: PrimarySchool - Gym
+2025-09-24 15:56:25,348 -   Overrode: PrimarySchool - Kitchen
+2025-09-24 15:56:25,348 -   Overrode: PrimarySchool - Library
+2025-09-24 15:56:25,348 -   Overrode: PrimarySchool - Lobby
+2025-09-24 15:56:25,349 -   Overrode: PrimarySchool - Office
+2025-09-24 15:56:25,349 -   Overrode: PrimarySchool - Restroom
+2025-09-24 15:56:25,349 -   Overrode: QuickServiceRestaurant - Dining
+2025-09-24 15:56:25,349 -   Overrode: QuickServiceRestaurant - Kitchen
+2025-09-24 15:56:25,349 -   Overrode: Retail - Core_Retail
+2025-09-24 15:56:25,350 -   Overrode: Retail - Entry
+2025-09-24 15:56:25,350 -   Overrode: Retail - Front_Retail
+2025-09-24 15:56:25,350 -   Overrode: Retail - Point_of_Sale
+2025-09-24 15:56:25,350 -   Overrode: Retail - Retail
+2025-09-24 15:56:25,350 -   Overrode: SecondarySchool - Auditorium
+2025-09-24 15:56:25,351 -   Overrode: SecondarySchool - Cafeteria
+2025-09-24 15:56:25,351 -   Overrode: SecondarySchool - Classroom
+2025-09-24 15:56:25,351 -   Overrode: SecondarySchool - ComputerRoom
+2025-09-24 15:56:25,351 -   Overrode: SecondarySchool - Gym
+2025-09-24 15:56:25,352 -   Overrode: SecondarySchool - Kitchen
+2025-09-24 15:56:25,352 -   Overrode: SecondarySchool - Library
+2025-09-24 15:56:25,352 -   Overrode: SecondarySchool - Lobby
+2025-09-24 15:56:25,352 -   Overrode: SecondarySchool - Office
+2025-09-24 15:56:25,352 -   Overrode: SecondarySchool - Restroom
+2025-09-24 15:56:25,353 -   Overrode: SmallHotel - Elec/MechRoom
+2025-09-24 15:56:25,353 -   Overrode: SmallHotel - Exercise
+2025-09-24 15:56:25,353 -   Overrode: SmallHotel - GuestLounge
+2025-09-24 15:56:25,353 -   Overrode: SmallHotel - Laundry
+2025-09-24 15:56:25,353 -   Overrode: SmallHotel - Meeting
+2025-09-24 15:56:25,354 -   Overrode: SmallHotel - Office
+2025-09-24 15:56:25,354 -   Overrode: SmallHotel - PublicRestroom
+2025-09-24 15:56:25,354 -   Overrode: SmallHotel - StaffLounge
+2025-09-24 15:56:25,354 -   Overrode: SmallHotel - Stair
+2025-09-24 15:56:25,354 -   Overrode: SmallHotel - Stair4
+2025-09-24 15:56:25,355 -   Overrode: SmallHotel - Storage
+2025-09-24 15:56:25,355 -   Overrode: SmallHotel - Storage4Front
+2025-09-24 15:56:25,355 -   Overrode: SmallHotel - Storage4Rear
+2025-09-24 15:56:25,355 -   Overrode: StripMall - Strip mall - type 1
+2025-09-24 15:56:25,356 -   Overrode: StripMall - Strip mall - type 2
+2025-09-24 15:56:25,356 -   Overrode: StripMall - Strip mall - type 3
+2025-09-24 15:56:25,356 -   Overrode: SuperMarket - Bakery
+2025-09-24 15:56:25,357 -   Overrode: SuperMarket - Deli
+2025-09-24 15:56:25,357 -   Overrode: SuperMarket - Dining
+2025-09-24 15:56:25,357 -   Overrode: SuperMarket - DryStorage
+2025-09-24 15:56:25,357 -   Overrode: SuperMarket - Meeting
+2025-09-24 15:56:25,358 -   Overrode: SuperMarket - Office
+2025-09-24 15:56:25,358 -   Overrode: SuperMarket - Restroom
+2025-09-24 15:56:25,358 -   Overrode: SuperMarket - Sales
+2025-09-24 15:56:25,358 -   Overrode: Warehouse - Fine
+2025-09-24 15:56:25,358 -   Overrode: Warehouse - Office
+2025-09-24 15:56:25,404 -   Created complete C:\OSLibraries\openstudio-standards-veic\lib\openstudio-standards\standards\ashrae_90_1\VT_CBES_2020\data\VT_CBES_2020.spc_typ.json with 264 base entries + 163 VT_CBES overrides
+2025-09-24 15:56:25,404 - Done creating complete JSON file!
