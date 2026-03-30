@@ -419,11 +419,11 @@ class VTCBES2020 < ASHRAE9012016
     climate_zone = '8' if climate_zone.include?('8')
 
     # Check annual operating hours
-    if ann_op_hrs < 3000.0
-      under_3000_hours = true
+    if ann_op_hrs < 3000.0          #********************Only changing value from 8000 to 3000 for CBES 2020 to avoid issues with other vintage choices********************
+      under_8000_hours = true
       string_for_log = 'under'
     else
-      under_3000_hours = false
+      under_8000_hours = false
       string_for_log = 'over'
     end
 
@@ -431,7 +431,7 @@ class VTCBES2020 < ASHRAE9012016
     search_criteria = {
       'template' => template,
       'climate_zone' => climate_zone,
-      'under_3000_hours' => under_3000_hours
+      'under_8000_hours' => under_8000_hours
     }
     energy_recovery_limits = model_find_object(standards_data['energy_recovery'], search_criteria)
     if energy_recovery_limits.nil?

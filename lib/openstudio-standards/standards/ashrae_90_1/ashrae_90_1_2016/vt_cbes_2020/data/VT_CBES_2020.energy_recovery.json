@@ -2,7 +2,7 @@
   "energy_recovery": [
     {
       "climate_zone": "0A",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 26000,
@@ -20,7 +20,7 @@
     },
     {
       "climate_zone": "0A",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 2500,
@@ -38,7 +38,7 @@
     },
     {
       "climate_zone": "0B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -56,7 +56,7 @@
     },
     {
       "climate_zone": "0B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -74,7 +74,7 @@
     },
     {
       "climate_zone": "1A",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 26000,
@@ -92,7 +92,7 @@
     },
     {
       "climate_zone": "1A",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 2500,
@@ -110,7 +110,7 @@
     },
     {
       "climate_zone": "1B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -128,7 +128,7 @@
     },
     {
       "climate_zone": "1B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -146,7 +146,7 @@
     },
     {
       "climate_zone": "2A",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 26000,
@@ -164,7 +164,7 @@
     },
     {
       "climate_zone": "2A",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 2500,
@@ -182,7 +182,7 @@
     },
     {
       "climate_zone": "2B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -200,7 +200,7 @@
     },
     {
       "climate_zone": "2B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -218,7 +218,7 @@
     },
     {
       "climate_zone": "0A",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -236,7 +236,7 @@
     },
     {
       "climate_zone": "0A",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -254,7 +254,7 @@
     },
     {
       "climate_zone": "0B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -272,7 +272,7 @@
     },
     {
       "climate_zone": "0B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -290,7 +290,7 @@
     },
     {
       "climate_zone": "1A",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -308,7 +308,7 @@
     },
     {
       "climate_zone": "1A",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -326,7 +326,7 @@
     },
     {
       "climate_zone": "1B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -344,7 +344,7 @@
     },
     {
       "climate_zone": "1B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -362,7 +362,7 @@
     },
     {
       "climate_zone": "2A",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -380,7 +380,7 @@
     },
     {
       "climate_zone": "2A",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -398,7 +398,7 @@
     },
     {
       "climate_zone": "2B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -416,7 +416,7 @@
     },
     {
       "climate_zone": "2B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -434,7 +434,7 @@
     },
     {
       "climate_zone": "3A",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 26000,
@@ -452,7 +452,7 @@
     },
     {
       "climate_zone": "3A",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 2500,
@@ -470,7 +470,7 @@
     },
     {
       "climate_zone": "3B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -488,7 +488,7 @@
     },
     {
       "climate_zone": "3B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -506,7 +506,7 @@
     },
     {
       "climate_zone": "3C",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -524,7 +524,7 @@
     },
     {
       "climate_zone": "3C",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -542,7 +542,7 @@
     },
     {
       "climate_zone": "3C",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -560,7 +560,7 @@
     },
     {
       "climate_zone": "3C",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -578,7 +578,7 @@
     },
     {
       "climate_zone": "4A",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 26000,
@@ -596,7 +596,7 @@
     },
     {
       "climate_zone": "4A",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 200,
@@ -614,7 +614,7 @@
     },
     {
       "climate_zone": "4B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -632,7 +632,7 @@
     },
     {
       "climate_zone": "4B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -650,7 +650,7 @@
     },
     {
       "climate_zone": "4B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 2500,
@@ -668,7 +668,7 @@
     },
     {
       "climate_zone": "4B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 2500,
@@ -686,7 +686,7 @@
     },
     {
       "climate_zone": "4C",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -704,7 +704,7 @@
     },
     {
       "climate_zone": "4C",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -722,7 +722,7 @@
     },
     {
       "climate_zone": "4C",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -740,7 +740,7 @@
     },
     {
       "climate_zone": "4C",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -758,7 +758,7 @@
     },
     {
       "climate_zone": "5A",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 26000,
@@ -776,7 +776,7 @@
     },
     {
       "climate_zone": "5A",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 200,
@@ -794,7 +794,7 @@
     },
     {
       "climate_zone": "5B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -812,7 +812,7 @@
     },
     {
       "climate_zone": "5B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 2500,
@@ -830,7 +830,7 @@
     },
     {
       "climate_zone": "5C",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -848,7 +848,7 @@
     },
     {
       "climate_zone": "5C",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -866,7 +866,7 @@
     },
     {
       "climate_zone": "6A",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -884,7 +884,7 @@
     },
     {
       "climate_zone": "6A",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -902,7 +902,7 @@
     },
     {
       "climate_zone": "5B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -920,7 +920,7 @@
     },
     {
       "climate_zone": "5B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -938,7 +938,7 @@
     },
     {
       "climate_zone": "5C",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -956,7 +956,7 @@
     },
     {
       "climate_zone": "5C",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -974,7 +974,7 @@
     },
     {
       "climate_zone": "6B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -992,7 +992,7 @@
     },
     {
       "climate_zone": "6B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -1010,7 +1010,7 @@
     },
     {
       "climate_zone": "7A",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 4500,
@@ -1028,7 +1028,7 @@
     },
     {
       "climate_zone": "7A",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 200,
@@ -1046,7 +1046,7 @@
     },
     {
       "climate_zone": "7B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 4500,
@@ -1064,7 +1064,7 @@
     },
     {
       "climate_zone": "7B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 200,
@@ -1082,7 +1082,7 @@
     },
     {
       "climate_zone": "8",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 4500,
@@ -1100,7 +1100,7 @@
     },
     {
       "climate_zone": "8",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": 200,
@@ -1118,7 +1118,7 @@
     },
     {
       "climate_zone": "6B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -1136,7 +1136,7 @@
     },
     {
       "climate_zone": "6B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -1154,7 +1154,7 @@
     },
     {
       "climate_zone": "7A",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -1172,7 +1172,7 @@
     },
     {
       "climate_zone": "7A",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -1190,7 +1190,7 @@
     },
     {
       "climate_zone": "7B",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -1208,7 +1208,7 @@
     },
     {
       "climate_zone": "7B",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -1226,7 +1226,7 @@
     },
     {
       "climate_zone": "8",
-      "under_3000_hours": true,
+      "under_8000_hours": true,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
@@ -1244,7 +1244,7 @@
     },
     {
       "climate_zone": "8",
-      "under_3000_hours": false,
+      "under_8000_hours": false,
       "nontransient_dwelling": "Any",
       "percent_oa_0_to_10": null,
       "percent_oa_10_to_20": null,
