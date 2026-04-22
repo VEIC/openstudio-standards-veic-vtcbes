@@ -15505,11 +15505,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted FullServiceRestaurant 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15517,7 +15517,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15526,11 +15526,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted HighriseApartment 90.1-2016",
       "building_category": "Residential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15538,7 +15538,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15547,11 +15547,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted Hospital 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15559,7 +15559,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15568,11 +15568,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted Hospital 90.1-2016",
       "building_category": "Residential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15580,7 +15580,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15589,11 +15589,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted LargeHotel 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15601,7 +15601,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15610,11 +15610,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted LargeHotel 90.1-2016",
       "building_category": "Residential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15622,7 +15622,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15631,11 +15631,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted LargeOffice 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15643,7 +15643,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15652,11 +15652,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted MediumOffice 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15664,7 +15664,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15673,11 +15673,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted MidriseApartment 90.1-2016",
       "building_category": "Residential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15685,7 +15685,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15694,11 +15694,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted Outpatient 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15706,7 +15706,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15715,11 +15715,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted PrimarySchool 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15727,7 +15727,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15736,11 +15736,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted QuickServiceRestaurant 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15748,7 +15748,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15757,11 +15757,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted Retail 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15769,7 +15769,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15778,11 +15778,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted SecondarySchool 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15790,7 +15790,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15799,11 +15799,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted SmallHotel 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15811,7 +15811,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15820,11 +15820,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted SmallHotel 90.1-2016",
       "building_category": "Residential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15832,7 +15832,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15841,11 +15841,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted SmallOffice 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15853,7 +15853,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15862,11 +15862,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted StripMall 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15874,7 +15874,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15883,11 +15883,11 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted Warehouse 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -15895,7 +15895,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15904,19 +15904,19 @@
       "intended_surface_type": "ExteriorWindow",
       "standards_construction_type": "Weighted Warehouse 90.1-2016",
       "building_category": "Semiheated",
-      "construction": "U 0.51 SHGC 0.45 Simple Glazing Window",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.51,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
       "assembly_maximum_c_factor": null,
-      "assembly_maximum_solar_heat_gain_coefficient": 0.45,
+      "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": null,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -15988,11 +15988,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted FullServiceRestaurant 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16000,7 +16000,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16009,11 +16009,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted HighriseApartment 90.1-2016",
       "building_category": "Residential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16021,7 +16021,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16030,11 +16030,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted Hospital 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16063,7 +16063,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16072,11 +16072,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted LargeHotel 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16084,7 +16084,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16093,11 +16093,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted LargeHotel 90.1-2016",
       "building_category": "Residential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16105,7 +16105,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16114,11 +16114,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted LargeOffice 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16126,7 +16126,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16135,11 +16135,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted MediumOffice 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16147,7 +16147,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16156,11 +16156,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted MidriseApartment 90.1-2016",
       "building_category": "Residential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16168,7 +16168,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16177,11 +16177,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted Outpatient 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16189,7 +16189,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16198,11 +16198,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted PrimarySchool 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16210,7 +16210,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16219,11 +16219,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted QuickServiceRestaurant 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16231,7 +16231,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16240,11 +16240,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted Retail 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16252,7 +16252,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16261,11 +16261,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted SecondarySchool 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16273,7 +16273,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16282,11 +16282,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted SmallHotel 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16294,7 +16294,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16303,11 +16303,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted SmallHotel 90.1-2016",
       "building_category": "Residential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16315,7 +16315,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16324,11 +16324,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted SmallOffice 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16336,7 +16336,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16345,11 +16345,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted StripMall 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16357,7 +16357,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16366,11 +16366,11 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted Warehouse 90.1-2016",
       "building_category": "Nonresidential",
-      "construction": "U 0.36 SHGC 0.4 Simple Glazing Window Weighted",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window Weighted",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.36,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
@@ -16378,7 +16378,7 @@
       "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": 1.1,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "90.1-2016",
@@ -16387,19 +16387,19 @@
       "intended_surface_type": "GlassDoor",
       "standards_construction_type": "Weighted Warehouse 90.1-2016",
       "building_category": "Semiheated",
-      "construction": "U 0.51 SHGC 0.45 Simple Glazing Window",
+      "construction": "U 0.33 SHGC 0.4 Simple Glazing Window",
       "orientation": null,
       "minimum_percent_of_surface": null,
       "maximum_percent_of_surface": null,
-      "assembly_maximum_u_value": 0.51,
+      "assembly_maximum_u_value": 0.33,
       "u_value_includes_interior_film_coefficient": true,
       "u_value_includes_exterior_film_coefficient": true,
       "assembly_maximum_f_factor": null,
       "assembly_maximum_c_factor": null,
-      "assembly_maximum_solar_heat_gain_coefficient": 0.45,
+      "assembly_maximum_solar_heat_gain_coefficient": 0.4,
       "assembly_minimum_vt_shgc": null,
       "notes": null,
-      "vt_override": false
+      "vt_override": true
     },
     {
       "template": "VT_CBES_2020",
