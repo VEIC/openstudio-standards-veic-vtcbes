@@ -960,11 +960,17 @@ class Standard
     loop_stpt_manager.setName("#{ground_hx_loop.name} Supply Outlet Setpoint")
     loop_stpt_manager.addToNode(ground_hx_loop.supplyOutletNode)
 
+    # Give the supply inlet node a stable name so the EMS sensor's IDF Key Name
+    # resolves correctly. Passing handle.to_s caused the FT to drop the sensor
+    # ('UID but does not exist'), terminating EnergyPlus during warmup.
+    supply_inlet_node = ground_hx_loop.supplyInletNode
+    supply_inlet_node.setName("#{ground_hx_loop.name} Supply Inlet Node")
+
     # sensor to read supply inlet temperature
     inlet_temp_sensor = OpenStudio::Model::EnergyManagementSystemSensor.new(model,
                                                                             'System Node Temperature')
     inlet_temp_sensor.setName("#{ground_hx.name.to_s.gsub(/[ +-.]/, '_')} Inlet Temp Sensor")
-    inlet_temp_sensor.setKeyName(ground_hx_loop.supplyInletNode.handle.to_s)
+    inlet_temp_sensor.setKeyName(supply_inlet_node.nameString)
 
     # actuator to set supply outlet temperature
     outlet_temp_actuator = OpenStudio::Model::EnergyManagementSystemActuator.new(hx_temp_sch,
