@@ -2,11 +2,11 @@
 # been modified to better reflect the U.S. building stock to a given model.
 # @ref [References::ASHRAE9012019]
 class SEER2ASHRAE9012019 < ASHRAE9012019
-  register_standard 'SEER2 90.1-2019'
+  register_standard 'SEER2_90_1_2019'
   attr_reader :template
 
   def initialize
-    @template = 'SEER2 90.1-2019'
+    @template = 'SEER2_90_1_2019'
     load_standards_database
   end
 
