@@ -1,0 +1,147 @@
+==============================================================================
+SEER2 child-standard conversion verification (model round-trip)
+run:      2026-07-23 11:23:18 -0600
+template: SEER2_90_1_2019
+gem:      /home/vcaristo/projects/openstudio-standards-veic-vtcbes/lib/openstudio-standards/standards/ashrae_90_1/ashrae_90_1_2019/seer2_ashrae_90_1_2019/data
+csv:      /home/vcaristo/projects/openstudio-standards-veic-vtcbes/lib/openstudio-standards/standards/ashrae_90_1/ashrae_90_1_2019/seer2_ashrae_90_1_2019/data/pnnl_files/seer2_conversion_summary.csv  (21 rows)
+==============================================================================
+
+=== PART A: standards_data loaded from SEER2 child class ===
+template = SEER2_90_1_2019
+  PASS  heat_pumps present  (30 rows)
+  PASS  heat_pumps template normalized -> SEER2_90_1_2019  (30 templated rows)
+  PASS  heat_pumps converted-row count matches CSV  (json=12 csv=12)
+  PASS  heat_pumps_heating present  (10 rows)
+  PASS  heat_pumps_heating template normalized -> SEER2_90_1_2019  (10 templated rows)
+  PASS  heat_pumps_heating converted-row count matches CSV  (json=5 csv=5)
+  PASS  unitary_acs present  (32 rows)
+  PASS  unitary_acs template normalized -> SEER2_90_1_2019  (32 templated rows)
+  PASS  unitary_acs converted-row count matches CSV  (json=4 csv=4)
+
+--- child vs base table sizes (sanity) ---
+  heat_pumps           child=30  base=30
+  heat_pumps_heating   child=10  base=10
+  unitary_acs          child=32  base=32
+
+=== PART B: efficiency applied to live model components ===
+  PASS  unitary_acs / Single Package: efficiency row found  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"AirCooled", "subcategory"=>"Single Package"})
+    -> matched unitary_acs: AirCooled/Single Package/All Other 0.0-64999.0 Btu/hr
+  PASS  unitary_acs / Single Package: row carries seer2_conversion_note
+  PASS  unitary_acs / Single Package: minimum_seasonal_energy_efficiency_ratio populated  (value=14.1)
+  PASS  unitary_acs / Single Package: documented in CSV
+  PASS  unitary_acs / Single Package: JSON minimum_seasonal_energy_efficiency_ratio == CSV New SEER2-derived  (json=14.1 csv=14.1)
+  PASS  unitary_acs / Single Package: JSON note == CSV note
+  PASS  unitary_acs / Single Package: model rated COP == COP(SEER 14.1)  (expected=4.137  actual=4.137)
+  PASS  unitary_acs / Split System: efficiency row found  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"AirCooled", "subcategory"=>"Split System"})
+    -> matched unitary_acs: AirCooled/Split System/All Other 0.0-64999.0 Btu/hr
+  PASS  unitary_acs / Split System: row carries seer2_conversion_note
+  PASS  unitary_acs / Split System: minimum_seasonal_energy_efficiency_ratio populated  (value=14.1)
+  PASS  unitary_acs / Split System: documented in CSV
+  PASS  unitary_acs / Split System: JSON minimum_seasonal_energy_efficiency_ratio == CSV New SEER2-derived  (json=14.1 csv=14.1)
+  PASS  unitary_acs / Split System: JSON note == CSV note
+  PASS  unitary_acs / Split System: model rated COP == COP(SEER 14.1)  (expected=4.137  actual=4.137)
+  PASS  heat_pumps / Single Package (cooling): efficiency row found  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"AirCooled", "subcategory"=>"Single Package", "heating_type"=>"Electric Resistance or None"})
+    -> matched heat_pumps: AirCooled/Single Package/Electric Resistance or None 0.0-64999.0 Btu/hr
+  PASS  heat_pumps / Single Package (cooling): row carries seer2_conversion_note
+  PASS  heat_pumps / Single Package (cooling): minimum_seasonal_efficiency populated  (value=14.1)
+  PASS  heat_pumps / Single Package (cooling): documented in CSV
+  PASS  heat_pumps / Single Package (cooling): JSON minimum_seasonal_efficiency == CSV New SEER2-derived  (json=14.1 csv=14.1)
+  PASS  heat_pumps / Single Package (cooling): JSON note == CSV note
+  PASS  heat_pumps / Single Package (cooling): model rated COP == COP(SEER 14.1)  (expected=4.137  actual=4.137)
+  PASS  heat_pumps_heating / Single Package (heating): efficiency row found  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"AirCooled", "subcategory"=>"Single Package", "heating_type"=>nil})
+    -> matched heat_pumps_heating: AirCooled/Single Package 0.0-64999.0 Btu/hr
+  PASS  heat_pumps_heating / Single Package (heating): row carries seer2_conversion_note
+  PASS  heat_pumps_heating / Single Package (heating): minimum_heating_seasonal_performance_factor populated  (value=7.9)
+  PASS  heat_pumps_heating / Single Package (heating): documented in CSV
+  PASS  heat_pumps_heating / Single Package (heating): JSON minimum_heating_seasonal_performance_factor == CSV New SEER2-derived  (json=7.9 csv=7.9)
+  PASS  heat_pumps_heating / Single Package (heating): JSON note == CSV note
+  PASS  heat_pumps_heating / Single Package (heating): model rated COP == COP(HSPF 7.9)  (expected=3.3374  actual=3.3374)
+  PASS  heat_pumps / Split System (cooling): efficiency row found  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"AirCooled", "subcategory"=>"Split System", "heating_type"=>"Electric Resistance or None"})
+    -> matched heat_pumps: AirCooled/Split System/Electric Resistance or None 0.0-64999.0 Btu/hr
+  PASS  heat_pumps / Split System (cooling): row carries seer2_conversion_note
+  PASS  heat_pumps / Split System (cooling): minimum_seasonal_efficiency populated  (value=15.1)
+  PASS  heat_pumps / Split System (cooling): documented in CSV
+  PASS  heat_pumps / Split System (cooling): JSON minimum_seasonal_efficiency == CSV New SEER2-derived  (json=15.1 csv=15.1)
+  PASS  heat_pumps / Split System (cooling): JSON note == CSV note
+  PASS  heat_pumps / Split System (cooling): model rated COP == COP(SEER 15.1)  (expected=4.3293  actual=4.3293)
+  PASS  heat_pumps_heating / Split System (heating): efficiency row found  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"AirCooled", "subcategory"=>"Split System", "heating_type"=>nil})
+    -> matched heat_pumps_heating: AirCooled/Split System 0.0-64999.0 Btu/hr
+  PASS  heat_pumps_heating / Split System (heating): row carries seer2_conversion_note
+  PASS  heat_pumps_heating / Split System (heating): minimum_heating_seasonal_performance_factor populated  (value=8.8)
+  PASS  heat_pumps_heating / Split System (heating): documented in CSV
+  PASS  heat_pumps_heating / Split System (heating): JSON minimum_heating_seasonal_performance_factor == CSV New SEER2-derived  (json=8.8 csv=8.8)
+  PASS  heat_pumps_heating / Split System (heating): JSON note == CSV note
+  PASS  heat_pumps_heating / Split System (heating): model rated COP == COP(HSPF 8.8)  (expected=3.5156  actual=3.5156)
+
+=== PART C: SmallDuctHighVelocity / ThroughWall (no model coil resolves here) ===
+  cooling_type comes from a DX coil condenserType (AirCooled/EvaporativelyCooled)
+  and these strings appear in no standards code, so apply-efficiency never selects
+  them. Verifying via direct lookup + conversion, plus a live-coil COP round-trip.
+  (9 such conversion rows in the CSV)
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / All Other: efficiency row found (direct lookup)  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"SmallDuctHighVelocity", "subcategory"=>"Split System", "heating_type"=>"All Other"})
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / All Other: row carries seer2_conversion_note
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / All Other: JSON minimum_seasonal_efficiency == CSV New SEER2-derived  (json=12.6 csv=12.6)
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / All Other: JSON note == CSV note
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / All Other: arithmetic (12.0/0.95 => 12.6)
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / All Other: coil COP round-trips COP(SEER 12.6)  (expected=3.8259 actual=3.8259)
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / All Other: a real coil's cooling_type is 'AirCooled', never 'SmallDuctHighVelocity'
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / Electric Resistance or None: efficiency row found (direct lookup)  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"SmallDuctHighVelocity", "subcategory"=>"Split System", "heating_type"=>"Electric Resistance or None"})
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / Electric Resistance or None: row carries seer2_conversion_note
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / Electric Resistance or None: JSON minimum_seasonal_efficiency == CSV New SEER2-derived  (json=12.6 csv=12.6)
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / Electric Resistance or None: JSON note == CSV note
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / Electric Resistance or None: arithmetic (12.0/0.95 => 12.6)
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / Electric Resistance or None: coil COP round-trips COP(SEER 12.6)  (expected=3.8259 actual=3.8259)
+  PASS  heat_pumps / SmallDuctHighVelocity / Split System / Electric Resistance or None: a real coil's cooling_type is 'AirCooled', never 'SmallDuctHighVelocity'
+  PASS  heat_pumps / ThroughWall / Single Package / All Other: efficiency row found (direct lookup)  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"ThroughWall", "subcategory"=>"Single Package", "heating_type"=>"All Other"})
+  PASS  heat_pumps / ThroughWall / Single Package / All Other: row carries seer2_conversion_note
+  PASS  heat_pumps / ThroughWall / Single Package / All Other: JSON minimum_seasonal_efficiency == CSV New SEER2-derived  (json=12.3 csv=12.3)
+  PASS  heat_pumps / ThroughWall / Single Package / All Other: JSON note == CSV note
+  PASS  heat_pumps / ThroughWall / Single Package / All Other: arithmetic (11.7/0.95 => 12.3)
+  PASS  heat_pumps / ThroughWall / Single Package / All Other: coil COP round-trips COP(SEER 12.3)  (expected=3.7605 actual=3.7605)
+  PASS  heat_pumps / ThroughWall / Single Package / All Other: a real coil's cooling_type is 'AirCooled', never 'ThroughWall'
+  PASS  heat_pumps / ThroughWall / Single Package / Electric Resistance or None: efficiency row found (direct lookup)  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"ThroughWall", "subcategory"=>"Single Package", "heating_type"=>"Electric Resistance or None"})
+  PASS  heat_pumps / ThroughWall / Single Package / Electric Resistance or None: row carries seer2_conversion_note
+  PASS  heat_pumps / ThroughWall / Single Package / Electric Resistance or None: JSON minimum_seasonal_efficiency == CSV New SEER2-derived  (json=12.3 csv=12.3)
+  PASS  heat_pumps / ThroughWall / Single Package / Electric Resistance or None: JSON note == CSV note
+  PASS  heat_pumps / ThroughWall / Single Package / Electric Resistance or None: arithmetic (11.7/0.95 => 12.3)
+  PASS  heat_pumps / ThroughWall / Single Package / Electric Resistance or None: coil COP round-trips COP(SEER 12.3)  (expected=3.7605 actual=3.7605)
+  PASS  heat_pumps / ThroughWall / Single Package / Electric Resistance or None: a real coil's cooling_type is 'AirCooled', never 'ThroughWall'
+  PASS  heat_pumps / ThroughWall / Split System / All Other: efficiency row found (direct lookup)  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"ThroughWall", "subcategory"=>"Split System", "heating_type"=>"All Other"})
+  PASS  heat_pumps / ThroughWall / Split System / All Other: row carries seer2_conversion_note
+  PASS  heat_pumps / ThroughWall / Split System / All Other: JSON minimum_seasonal_efficiency == CSV New SEER2-derived  (json=12.3 csv=12.3)
+  PASS  heat_pumps / ThroughWall / Split System / All Other: JSON note == CSV note
+  PASS  heat_pumps / ThroughWall / Split System / All Other: arithmetic (11.7/0.95 => 12.3)
+  PASS  heat_pumps / ThroughWall / Split System / All Other: coil COP round-trips COP(SEER 12.3)  (expected=3.7605 actual=3.7605)
+  PASS  heat_pumps / ThroughWall / Split System / All Other: a real coil's cooling_type is 'AirCooled', never 'ThroughWall'
+  PASS  heat_pumps / ThroughWall / Split System / Electric Resistance or None: efficiency row found (direct lookup)  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"ThroughWall", "subcategory"=>"Split System", "heating_type"=>"Electric Resistance or None"})
+  PASS  heat_pumps / ThroughWall / Split System / Electric Resistance or None: row carries seer2_conversion_note
+  PASS  heat_pumps / ThroughWall / Split System / Electric Resistance or None: JSON minimum_seasonal_efficiency == CSV New SEER2-derived  (json=12.3 csv=12.3)
+  PASS  heat_pumps / ThroughWall / Split System / Electric Resistance or None: JSON note == CSV note
+  PASS  heat_pumps / ThroughWall / Split System / Electric Resistance or None: arithmetic (11.7/0.95 => 12.3)
+  PASS  heat_pumps / ThroughWall / Split System / Electric Resistance or None: coil COP round-trips COP(SEER 12.3)  (expected=3.7605 actual=3.7605)
+  PASS  heat_pumps / ThroughWall / Split System / Electric Resistance or None: a real coil's cooling_type is 'AirCooled', never 'ThroughWall'
+  PASS  heat_pumps_heating / SmallDuctHighVelocity / Split System: efficiency row found (direct lookup)  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"SmallDuctHighVelocity", "subcategory"=>"Split System"})
+  PASS  heat_pumps_heating / SmallDuctHighVelocity / Split System: row carries seer2_conversion_note
+  PASS  heat_pumps_heating / SmallDuctHighVelocity / Split System: JSON minimum_heating_seasonal_performance_factor == CSV New SEER2-derived  (json=7.2 csv=7.2)
+  PASS  heat_pumps_heating / SmallDuctHighVelocity / Split System: JSON note == CSV note
+  PASS  heat_pumps_heating / SmallDuctHighVelocity / Split System: arithmetic (6.1/0.85 => 7.2)
+  PASS  heat_pumps_heating / SmallDuctHighVelocity / Split System: coil COP round-trips COP(HSPF 7.2)  (expected=3.1702 actual=3.1702)
+  PASS  heat_pumps_heating / SmallDuctHighVelocity / Split System: a real coil's cooling_type is 'AirCooled', never 'SmallDuctHighVelocity'
+  PASS  heat_pumps_heating / ThroughWall / Single Package: efficiency row found (direct lookup)  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"ThroughWall", "subcategory"=>"Single Package"})
+  PASS  heat_pumps_heating / ThroughWall / Single Package: row carries seer2_conversion_note
+  PASS  heat_pumps_heating / ThroughWall / Single Package: JSON minimum_heating_seasonal_performance_factor == CSV New SEER2-derived  (json=7.4 csv=7.4)
+  PASS  heat_pumps_heating / ThroughWall / Single Package: JSON note == CSV note
+  PASS  heat_pumps_heating / ThroughWall / Single Package: arithmetic (6.3/0.85 => 7.4)
+  PASS  heat_pumps_heating / ThroughWall / Single Package: coil COP round-trips COP(HSPF 7.4)  (expected=3.2205 actual=3.2205)
+  PASS  heat_pumps_heating / ThroughWall / Single Package: a real coil's cooling_type is 'AirCooled', never 'ThroughWall'
+  PASS  heat_pumps_heating / ThroughWall / Split System: efficiency row found (direct lookup)  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"ThroughWall", "subcategory"=>"Split System"})
+  PASS  heat_pumps_heating / ThroughWall / Split System: row carries seer2_conversion_note
+  PASS  heat_pumps_heating / ThroughWall / Split System: JSON minimum_heating_seasonal_performance_factor == CSV New SEER2-derived  (json=7.4 csv=7.4)
+  PASS  heat_pumps_heating / ThroughWall / Split System: JSON note == CSV note
+  PASS  heat_pumps_heating / ThroughWall / Split System: arithmetic (6.3/0.85 => 7.4)
+  PASS  heat_pumps_heating / ThroughWall / Split System: coil COP round-trips COP(HSPF 7.4)  (expected=3.2205 actual=3.2205)
+  PASS  heat_pumps_heating / ThroughWall / Split System: a real coil's cooling_type is 'AirCooled', never 'ThroughWall'
+
+=== SUMMARY ===
+PASS: 114   FAIL: 0
+ALL CHECKS PASSED
