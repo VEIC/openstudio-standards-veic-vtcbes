@@ -73,11 +73,13 @@ template = SEER2_90_1_2019
   PASS  heat_pumps_heating / Split System (heating): JSON note == CSV note
   PASS  heat_pumps_heating / Split System (heating): model rated COP == COP(HSPF 8.8)  (expected=3.5156  actual=3.5156)
 
-=== PART C: SmallDuctHighVelocity / ThroughWall (no model coil resolves here) ===
+=== PART C: SmallDuctHighVelocity / ThroughWall ===
+  In OpenStudio, the only options for cooling_type are "AirCooled" or "EvaporativelyCooled". 
   cooling_type comes from a DX coil condenserType (AirCooled/EvaporativelyCooled)
-  and these strings appear in no standards code, so apply-efficiency never selects
-  them. Verifying via direct lookup + conversion, plus a live-coil COP round-trip.
-  (9 such conversion rows in the CSV)
+  and these strings never appear OpenStudio. Howvever, the standards files are "standards-complete", and include 
+  several equipment entrires with additional cooling types. Since these elements can't be added to an OpenStudio model, 
+  like in Part B, in this section we tests these elements by checking their CSVs.
+  (9 such conversion rows in the CSV) 
   PASS  heat_pumps / SmallDuctHighVelocity / Split System / All Other: efficiency row found (direct lookup)  ({"template"=>"SEER2_90_1_2019", "cooling_type"=>"SmallDuctHighVelocity", "subcategory"=>"Split System", "heating_type"=>"All Other"})
   PASS  heat_pumps / SmallDuctHighVelocity / Split System / All Other: row carries seer2_conversion_note
   PASS  heat_pumps / SmallDuctHighVelocity / Split System / All Other: JSON minimum_seasonal_efficiency == CSV New SEER2-derived  (json=12.6 csv=12.6)
