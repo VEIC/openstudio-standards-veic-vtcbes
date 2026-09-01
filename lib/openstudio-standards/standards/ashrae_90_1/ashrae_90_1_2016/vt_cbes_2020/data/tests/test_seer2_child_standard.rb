@@ -2,9 +2,9 @@
 #
 # Verifies that the SEER2 -> SEER1 / HSPF2 -> HSPF back-calculations documented in
 #
-#   .../seer2_ashrae_90_1_2019/data/pnnl_files/seer2_conversion_summary.csv
+#   .../vt_cbes_2020/data/pnnl_files/seer2_conversion_summary.csv
 #
-# were (a) loaded into the SEER2_90_1_2019 child standard's standards_data and
+# were (a) loaded into the VT_CBES_2020 child standard's standards_data and
 # (b) actually flow all the way through onto real OpenStudio model components.
 #
 # For each equipment kind this test:
@@ -45,11 +45,11 @@ require 'openstudio-standards'
 require 'csv'
 require 'date'
 
-TEMPLATE = 'SEER2_90_1_2019'
-BASE_TMPL = '90.1-2019'
+TEMPLATE = 'VT_CBES_2020'
+BASE_TMPL = '90.1-2016'
 
 DATA_DIR = '/home/vcaristo/projects/openstudio-standards-veic-vtcbes/lib/openstudio-standards/' \
-           'standards/ashrae_90_1/ashrae_90_1_2019/seer2_ashrae_90_1_2019/data'
+           'standards/ashrae_90_1/ashrae_90_1_2016/vt_cbes_2020/data'
 CSV_PATH = File.join(DATA_DIR, 'pnnl_files', 'seer2_conversion_summary.csv')
 NOTE_FIELD = 'seer2_conversion_note'
 RESULTS_PATH = File.join(File.dirname(File.expand_path(__FILE__)),
