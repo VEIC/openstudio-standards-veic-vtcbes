@@ -108,7 +108,6 @@ module OpenstudioStandards
 
   # VEIC custom standards
   require_relative "#{stds}/ashrae_90_1/ashrae_90_1_2016/vt_cbes_2020/vt_cbes_2020"
-  require_relative "#{stds}/ashrae_90_1/ashrae_90_1_2019/seer2_ashrae_90_1_2019/seer2_ashrae_90_1_2019"
 
   require_relative "#{stds}/deer/deer"
   require_relative "#{stds}/deer/deer_pre_1975/deer_pre_1975"
