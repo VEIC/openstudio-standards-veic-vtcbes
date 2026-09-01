@@ -118,7 +118,7 @@ end
 # ---------------------------------------------------------------------------
 raw = File.exist?(CSV_PATH) ? File.read(CSV_PATH) : ''
 raw = raw[1..] if raw.start_with?("﻿")
-csv_rows = raw.empty? ? [] : CSV.parse(raw.each_line.to_a.drop(1).join, headers: true).map(&:to_h)
+csv_rows = raw.empty? ? [] : CSV.parse(raw.each_line.to_a.join, headers: true).map(&:to_h)
 
 # Find the CSV row that documents a given category + capacity. heating_type is blank
 # in the CSV for the heating table, so it is only matched on the cooling-side tables.
