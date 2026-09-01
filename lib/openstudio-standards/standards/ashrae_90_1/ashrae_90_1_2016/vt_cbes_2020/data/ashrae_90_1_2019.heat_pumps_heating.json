@@ -68,7 +68,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_heating_seasonal_performance_factor": 8.0,
+      "minimum_heating_seasonal_performance_factor": 7.9,
       "minimum_coefficient_of_performance_heating": null,
       "minimum_energy_efficiency_ratio": null,
       "pthp_cop_coefficient_1": null,
@@ -78,7 +78,8 @@
       "heat_eir_ft": "HPACHeatEIRFT",
       "heat_eir_fflow": "HPACHeatEIRFFF",
       "heat_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "HSPF back-calculated from PNNL 2023 ASHRAE 90.1, using HSPF = HSPF2 / 0.85 (HSPF2=6.7 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -128,7 +129,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_heating_seasonal_performance_factor": 8.2,
+      "minimum_heating_seasonal_performance_factor": 8.8,
       "minimum_coefficient_of_performance_heating": null,
       "minimum_energy_efficiency_ratio": null,
       "pthp_cop_coefficient_1": null,
@@ -138,7 +139,8 @@
       "heat_eir_ft": "HPACHeatEIRFT",
       "heat_eir_fflow": "HPACHeatEIRFFF",
       "heat_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "HSPF back-calculated from PNNL 2023 ASHRAE 90.1, using HSPF = HSPF2 / 0.85 (HSPF2=7.5 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -148,7 +150,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_heating_seasonal_performance_factor": 6.8,
+      "minimum_heating_seasonal_performance_factor": 7.2,
       "minimum_coefficient_of_performance_heating": null,
       "minimum_energy_efficiency_ratio": null,
       "pthp_cop_coefficient_1": null,
@@ -158,7 +160,8 @@
       "heat_eir_ft": "DXHEAT-NECB2011-REF-EIRFT",
       "heat_eir_fflow": "DXHEAT-NECB2011-REF-EIRFFLOW",
       "heat_plf_fplr": "DXHEAT-NECB2011-REF-PLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "HSPF back-calculated from PNNL 2023 ASHRAE 90.1, using HSPF = HSPF2 / 0.85 (HSPF2=6.1 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -178,7 +181,8 @@
       "heat_eir_ft": "DXHEAT-NECB2011-REF-EIRFT",
       "heat_eir_fflow": "DXHEAT-NECB2011-REF-EIRFFLOW",
       "heat_plf_fplr": "DXHEAT-NECB2011-REF-PLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "HSPF back-calculated from PNNL 2023 ASHRAE 90.1, using HSPF = HSPF2 / 0.85 (HSPF2=6.3 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -198,7 +202,8 @@
       "heat_eir_ft": "DXHEAT-NECB2011-REF-EIRFT",
       "heat_eir_fflow": "DXHEAT-NECB2011-REF-EIRFFLOW",
       "heat_plf_fplr": "DXHEAT-NECB2011-REF-PLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "HSPF back-calculated from PNNL 2023 ASHRAE 90.1, using HSPF = HSPF2 / 0.85 (HSPF2=6.3 -- National standard; applicable to Vermont (DOE North region))"
     }
   ]
 }

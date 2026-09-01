@@ -75,7 +75,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2014-12-31T00:00:00+00:00",
-      "minimum_seasonal_efficiency": 13.0,
+      "minimum_seasonal_efficiency": 14.1,
       "minimum_full_load_efficiency": null,
       "minimum_iplv": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -86,7 +86,8 @@
       "cool_eir_ft": "HPACCOOLEIRFT",
       "cool_eir_fflow": "HPACCOOLEIRFFF",
       "cool_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=13.4 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -97,7 +98,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_efficiency": 14.0,
+      "minimum_seasonal_efficiency": 14.1,
       "minimum_full_load_efficiency": null,
       "minimum_iplv": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -108,7 +109,8 @@
       "cool_eir_ft": "HPACCOOLEIRFT",
       "cool_eir_fflow": "HPACCOOLEIRFFF",
       "cool_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=13.4 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -185,7 +187,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_efficiency": 14.0,
+      "minimum_seasonal_efficiency": 15.1,
       "minimum_full_load_efficiency": null,
       "minimum_iplv": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -196,7 +198,8 @@
       "cool_eir_ft": "HPACCOOLEIRFT",
       "cool_eir_fflow": "HPACCOOLEIRFFF",
       "cool_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=14.3 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -339,7 +342,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2014-12-31T00:00:00+00:00",
-      "minimum_seasonal_efficiency": 13.0,
+      "minimum_seasonal_efficiency": 14.1,
       "minimum_full_load_efficiency": null,
       "minimum_iplv": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -350,7 +353,8 @@
       "cool_eir_ft": "HPACCOOLEIRFT",
       "cool_eir_fflow": "HPACCOOLEIRFFF",
       "cool_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=13.4 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -361,7 +365,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_efficiency": 14.0,
+      "minimum_seasonal_efficiency": 14.1,
       "minimum_full_load_efficiency": null,
       "minimum_iplv": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -372,7 +376,8 @@
       "cool_eir_ft": "HPACCOOLEIRFT",
       "cool_eir_fflow": "HPACCOOLEIRFFF",
       "cool_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=13.4 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -449,7 +454,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_efficiency": 14.0,
+      "minimum_seasonal_efficiency": 15.1,
       "minimum_full_load_efficiency": null,
       "minimum_iplv": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -460,7 +465,8 @@
       "cool_eir_ft": "HPACCOOLEIRFT",
       "cool_eir_fflow": "HPACCOOLEIRFFF",
       "cool_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=14.3 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -537,7 +543,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_efficiency": 11.0,
+      "minimum_seasonal_efficiency": 12.6,
       "minimum_full_load_efficiency": null,
       "minimum_iplv": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -548,7 +554,8 @@
       "cool_eir_ft": "HPACCOOLEIRFT",
       "cool_eir_fflow": "HPACCOOLEIRFFF",
       "cool_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=12.0 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -559,7 +566,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_efficiency": 11.0,
+      "minimum_seasonal_efficiency": 12.6,
       "minimum_full_load_efficiency": null,
       "minimum_iplv": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -570,7 +577,8 @@
       "cool_eir_ft": "HPACCOOLEIRFT",
       "cool_eir_fflow": "HPACCOOLEIRFFF",
       "cool_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=12.0 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -581,7 +589,7 @@
       "maximum_capacity": 29999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_efficiency": 12.0,
+      "minimum_seasonal_efficiency": 12.3,
       "minimum_full_load_efficiency": null,
       "minimum_iplv": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -592,7 +600,8 @@
       "cool_eir_ft": "HPACCOOLEIRFT",
       "cool_eir_fflow": "HPACCOOLEIRFFF",
       "cool_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=11.7 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -603,7 +612,7 @@
       "maximum_capacity": 29999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_efficiency": 12.0,
+      "minimum_seasonal_efficiency": 12.3,
       "minimum_full_load_efficiency": null,
       "minimum_iplv": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -614,7 +623,8 @@
       "cool_eir_ft": "HPACCOOLEIRFT",
       "cool_eir_fflow": "HPACCOOLEIRFFF",
       "cool_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=11.7 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -625,7 +635,7 @@
       "maximum_capacity": 29999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_efficiency": 12.0,
+      "minimum_seasonal_efficiency": 12.3,
       "minimum_full_load_efficiency": null,
       "minimum_iplv": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -636,7 +646,8 @@
       "cool_eir_ft": "HPACCOOLEIRFT",
       "cool_eir_fflow": "HPACCOOLEIRFFF",
       "cool_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=11.7 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -647,7 +658,7 @@
       "maximum_capacity": 29999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_efficiency": 12.0,
+      "minimum_seasonal_efficiency": 12.3,
       "minimum_full_load_efficiency": null,
       "minimum_iplv": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -658,7 +669,8 @@
       "cool_eir_ft": "HPACCOOLEIRFT",
       "cool_eir_fflow": "HPACCOOLEIRFFF",
       "cool_plf_fplr": "HPACCOOLPLFFPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=11.7 -- National standard; applicable to Vermont (DOE North region))"
     }
   ]
 }

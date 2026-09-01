@@ -78,7 +78,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_energy_efficiency_ratio": 14.0,
+      "minimum_seasonal_energy_efficiency_ratio": 14.1,
       "minimum_energy_efficiency_ratio": null,
       "minimum_integrated_part_load_value": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -90,7 +90,8 @@
       "cool_eir_ft": "PSZ-AC DX Unitary Package EIRFT",
       "cool_eir_fflow": "PSZ-AC_Unitary_PackagecoolEIRFFF",
       "cool_plf_fplr": "PSZ-AC_Unitary_PackagecoolPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=13.4 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -193,7 +194,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_energy_efficiency_ratio": 13.0,
+      "minimum_seasonal_energy_efficiency_ratio": 14.1,
       "minimum_energy_efficiency_ratio": null,
       "minimum_integrated_part_load_value": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -205,7 +206,8 @@
       "cool_eir_ft": "PSZ-AC DX Unitary Package EIRFT",
       "cool_eir_fflow": "PSZ-AC_Unitary_PackagecoolEIRFFF",
       "cool_plf_fplr": "PSZ-AC_Unitary_PackagecoolPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=13.4 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -446,7 +448,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_energy_efficiency_ratio": 14.0,
+      "minimum_seasonal_energy_efficiency_ratio": 14.1,
       "minimum_energy_efficiency_ratio": null,
       "minimum_integrated_part_load_value": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -458,7 +460,8 @@
       "cool_eir_ft": "PSZ-AC DX Unitary Package EIRFT",
       "cool_eir_fflow": "PSZ-AC_Unitary_PackagecoolEIRFFF",
       "cool_plf_fplr": "PSZ-AC_Unitary_PackagecoolPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=13.4 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
@@ -561,7 +564,7 @@
       "maximum_capacity": 64999.0,
       "start_date": "1919-09-09T00:00:00+00:00",
       "end_date": "2999-09-09T00:00:00+00:00",
-      "minimum_seasonal_energy_efficiency_ratio": 13.0,
+      "minimum_seasonal_energy_efficiency_ratio": 14.1,
       "minimum_energy_efficiency_ratio": null,
       "minimum_integrated_part_load_value": null,
       "minimum_integrated_energy_efficiency_ratio": null,
@@ -573,7 +576,8 @@
       "cool_eir_ft": "PSZ-AC DX Unitary Package EIRFT",
       "cool_eir_fflow": "PSZ-AC_Unitary_PackagecoolEIRFFF",
       "cool_plf_fplr": "PSZ-AC_Unitary_PackagecoolPLR",
-      "notes": null
+      "notes": null,
+      "seer2_conversion_note": "SEER back-calculated from PNNL 2023 ASHRAE 90.1, using SEER = SEER2 / 0.95 (SEER2=13.4 -- National standard; applicable to Vermont (DOE North region))"
     },
     {
       "template": "90.1-2019",
